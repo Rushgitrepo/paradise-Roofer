@@ -16,7 +16,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Address",
-    items: ["73 Richmond ST.W Suit No. 6, Financial District, Toronto, ON. Canada"],
+    items: ["73 Richmond st. W Suit no 6, Financial District, Toronto, ON. , Canada"],
   },
 ];
 

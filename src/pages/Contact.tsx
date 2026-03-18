@@ -16,17 +16,18 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Address",
-    items: ["254 Eastern Street, Behind Taj Bridge, Centerburg, Texas, 4134"],
+    items: ["73 Richmond st. W Suit no 6, Financial District, Toronto, ON. , Canada"],
   },
 ];
 
 const socialLinks = [
-  { name: "X", href: "#" },
-  { name: "LinkedIn", href: "#" },
-  { name: "Facebook", href: "#" },
-  { name: "Instagram", href: "#" },
-  { name: "YouTube", href: "#" },
-  { name: "Pinterest", href: "#" },
+  { name: "X", href: "https://x.com/ParadisseRoofer" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/company/paradise-roofers/" },
+  { name: "Facebook", href: "https://www.facebook.com/paradiseroofers/" },
+  { name: "Instagram", href: "https://www.instagram.com/paradiseroofers" },
+  { name: "YouTube", href: "https://www.youtube.com/channel/UCVsy0Tk92uISc-LSw_z-8UQ" },
+  { name: "Pinterest", href: "https://www.pinterest.com/paradiseroofers/" },
+  { name: "TikTok", href: "https://www.tiktok.com/@paradiseroofers" },
 ];
 
 export default function Contact() {
@@ -59,24 +60,23 @@ export default function Contact() {
               <div>
                 <h3 className="text-sm font-bold uppercase tracking-widest text-[#FF9C45] mb-4">Hotline</h3>
                 <div className="space-y-2">
-                  <a href="tel:5551234567" className="block text-3xl font-bold hover:text-[#FF9C45] transition-colors">(555) 123-4567</a>
-                  <a href="tel:55512427834" className="block text-3xl font-bold hover:text-[#FF9C45] transition-colors text-muted-foreground">(555) 124-27834</a>
+                  <a href="tel:5551234567" className="block text-3xl font-bold hover:text-[#FF9C45] transition-colors">(437) 564-2790</a>
                 </div>
               </div>
 
               {/* Email */}
               <div>
                 <h3 className="text-sm font-bold uppercase tracking-widest text-[#FF9C45] mb-4">Email</h3>
-                <a href="mailto:sales@roofingestimators.com" className="text-2xl font-bold uppercase hover:text-[#FF9C45] transition-colors">sales@roofingestimators.com</a>
+                <a href="mailto:info@paradiseroofers.com" className="text-2xl font-bold uppercase hover:text-[#FF9C45] transition-colors">info@paradiseroofers.com</a>
               </div>
 
               {/* Address */}
               <div>
                 <h3 className="text-sm font-bold uppercase tracking-widest text-[#FF9C45] mb-4">Headquarters</h3>
                 <p className="text-xl font-medium leading-relaxed max-w-xs">
-                  254 Eastern Street,
-                  Behind Taj Bridge,
-                  Centerburg, Texas, 4134
+                  73 Richmond ST.W Suit No. 6,
+                  Financial District,
+                  Toronto, ON. Canada
                 </p>
               </div>
 

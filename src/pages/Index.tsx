@@ -10,89 +10,78 @@ import HowWeWork from "@/components/sections/HowWeWork";
 import BeforeAfterSlider from "@/components/sections/BeforeAfterSlider";
 import ReviewsPreview from "@/components/sections/ReviewsPreview";
 import RoofingTypesPreview from "@/components/sections/RoofingTypesPreview";
-import roofInspection from "@/assets/roof-inspection.jpg";
-import roofInstallation from "@/assets/roof-installation.jpg";
-import roofCoating from "@/assets/roof-coating.jpg";
-import completedRoof from "@/assets/completed-roof.jpg";
-import metalRoof from "@/assets/metal-roof.jpg";
+import roofInspectionImg from "@/assets/Home_page/FREERoofDroneInspectionTorontoGTAHomeowners.webp";
+import roofRepairImg from "@/assets/Home_page/Roof_repair_image.png";
+import roofInstallationImg from "@/assets/Home_page/Roof_INstallation2.png";
+import roofReplacementImg from "@/assets/Home_page/Roof_Replacement_New.png";
+import roofCoatingImg from "@/assets/roof-coating.jpg";
+import gutterRepairImg from "@/assets/Home_page/Gutter_Repair.webp";
+import residentialRoofingImg from "@/assets/Home_page/ResidentialRoofingSolutions.webp";
+import commercialRoofingImg from "@/assets/Home_page/CommercialServicesCommercialFlatRoofingSystemsToronto.webp";
+import soffitRepairImg from "@/assets/Home_page/Soffit_Repair_New.png";
+import fasciaRepairImg from "@/assets/Home_page/Fascia_Repair_New.png";
+import atticInsulationImg from "@/assets/Home_page/AtticInsulationTorontoGTA.webp";
+import interiorRenosImg from "@/assets/Home_page/CompleteInteriorRenovationsinTorontoGTA.webp";
 
 const services = [
   {
     title: "Free Drone Roof Inspection",
     description: "Our free drone roof inspection provides a safe, high-definition aerial health check of your entire roofing system, capturing hidden damage in minutes without ever setting foot on your shingles.",
-    image: roofInspection,
+    image: roofInspectionImg,
     href: "/services/inspection",
   },
   {
     title: "Roof Repair",
     description: "Fix leaks, Replace shingles, damage fast. Includes leak detection, wind/hail, storm repair.",
-    image: roofInspection,
+    image: roofRepairImg,
     href: "/services/repair",
   },
   {
     title: "Roof Installation",
     description: "New roofs built right: asphalt shingle for homes and commercial properties.",
-    image: roofInstallation,
+    image: roofInstallationImg,
     href: "/services/installation",
   },
   {
     title: "Roof Replacement",
     description: "Remove old roofs, install durable upgrades. Residential and commercial specialists.",
-    image: completedRoof,
+    image: roofReplacementImg,
     href: "/services/replacement",
-  },
-  {
-    title: "Gutter Services",
-    description: "Installation, repair, cleaning to prevent water damage.",
-    image: metalRoof,
-    href: "/services/gutters",
-  },
-  {
-    title: "Damage Repair",
-    description: "Wind, hail, storm damage restoration.",
-    image: roofCoating,
-    href: "/services/repair",
   },
   {
     title: "Residential Roofing",
     description: "Tailored for homeowners.",
-    image: completedRoof,
+    image: residentialRoofingImg,
     href: "/services/residential",
-  },
-  {
-    title: "Commercial Roofing",
-    description: "Large-scale installs and repairs for businesses.",
-    image: metalRoof,
-    href: "/services/commercial",
   },
   {
     title: "Soffit Repair & Replacement",
     description: "Vented soffits fix attic moisture, ice dams",
-    image: metalRoof,
+    image: soffitRepairImg,
     href: "/services/soffit",
   },
   {
     title: "Fascia Repair & Replacement",
     description: "Durable fascia stops rot, protects gutters",
-    image: metalRoof,
+    image: fasciaRepairImg,
     href: "/services/fascia",
   },
   {
     title: "Gutters Repair & Replacement",
     description: "Seamless gutters prevent foundation damage",
-    image: metalRoof,
+    image: gutterRepairImg,
     href: "/services/gutters",
   },
   {
     title: "Attic Insulation",
     description: "R60 insulation cuts bills, stops ice dams",
-    image: metalRoof,
+    image: atticInsulationImg,
     href: "/services/attic-insulation",
   },
   {
     title: "All Interior Renos",
     description: "Ceiling repair from Roof leak damage services Kitchen, Bathroom renos, windows, drywall paint, tiles, and plumbing services.",
-    image: metalRoof,
+    image: interiorRenosImg,
     href: "/services/interior-renos",
   },
 ];

@@ -11,7 +11,7 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    items: ["info@paradiseroofers.com"],
+    items: ["sales@phoenixestimating.com"],
   },
   {
     icon: MapPin,

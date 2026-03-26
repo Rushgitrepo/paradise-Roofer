@@ -73,16 +73,16 @@ import RedirectHandler from './components/routing/RedirectHandler';
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <HelmetProvider>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/locations" element={<Locations />} />
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/locations" element={<Locations />} />
 
             {/* Service Routes */}
             <Route path="/services/installation" element={<RoofInstallation />} />
@@ -100,45 +100,45 @@ const App = () => (
 
             <Route path="/services/:slug" element={<Services />} />
 
-          {/* Location Routes */}
-          <Route path="/locations/brampton" element={<BramptonSimple />} />
-          <Route path="/locations/brampton/roofing" element={<BramptonRoofing />} />
-          <Route path="/locations/brampton/renovation" element={<BramptonRenovation />} />
-          <Route path="/locations/mississauga" element={<MississaugaSimple />} />
-          <Route path="/locations/mississauga/roofing" element={<MississaugaRoofing />} />
-          <Route path="/locations/mississauga/renovation" element={<MississaugaRenovation />} />
-          <Route path="/locations/milton" element={<MiltonSimple />} />
-          <Route path="/locations/milton/roofing" element={<MiltonRoofing />} />
-          <Route path="/locations/milton/renovation" element={<MiltonRenovation />} />
-          <Route path="/locations/oakville" element={<OakvilleSimple />} />
-          <Route path="/locations/oakville/roofing" element={<OakvilleRoofing />} />
-          <Route path="/locations/oakville/renovation" element={<OakvilleRenovation />} />
-          <Route path="/locations/etobicoke" element={<EtobicokeSimple />} />
-          <Route path="/locations/etobicoke/roofing" element={<EtobicokeRoofing />} />
-          <Route path="/locations/etobicoke/renovation" element={<EtobicokeRenovation />} />
-          <Route path="/locations/scarborough" element={<ScarboroughSimple />} />
-          <Route path="/locations/scarborough/roofing" element={<ScarboroughRoofing />} />
-          <Route path="/locations/scarborough/renovation" element={<ScarboroughRenovation />} />
-          <Route path="/locations/vaughan" element={<VaughanSimple />} />
-          <Route path="/locations/vaughan/roofing" element={<VaughanRoofing />} />
-          <Route path="/locations/vaughan/renovation" element={<VaughanRenovation />} />
-          <Route path="/locations/markham" element={<MarkhamSimple />} />
-          <Route path="/locations/markham/roofing" element={<MarkhamRoofing />} />
-          <Route path="/locations/markham/renovation" element={<MarkhamRenovation />} />
-          <Route path="/locations/richmond-hill" element={<RichmondHillSimple />} />
-          <Route path="/locations/richmond-hill/roofing" element={<RichmondHillRoofing />} />
-          <Route path="/locations/richmond-hill/renovation" element={<RichmondHillRenovation />} />
-          <Route path="/locations/aurora" element={<AuroraSimple />} />
-          <Route path="/locations/aurora/roofing" element={<AuroraRoofing />} />
-          <Route path="/locations/aurora/renovation" element={<AuroraRenovation />} />
-          <Route path="/locations/burlington" element={<BurlingtonSimple />} />
-          <Route path="/locations/burlington/roofing" element={<BurlingtonRoofing />} />
-          <Route path="/locations/burlington/renovation" element={<BurlingtonRenovation />} />
-          <Route path="/locations/ajax" element={<AjaxSimple />} />
-          <Route path="/locations/ajax/roofing" element={<AjaxRoofing />} />
-          <Route path="/locations/ajax/renovation" element={<AjaxRenovation />} />
+            {/* Location Routes */}
+            <Route path="/locations/brampton" element={<BramptonSimple />} />
+            <Route path="/locations/brampton/roofing" element={<BramptonRoofing />} />
+            <Route path="/locations/brampton/renovation" element={<BramptonRenovation />} />
+            <Route path="/locations/mississauga" element={<MississaugaSimple />} />
+            <Route path="/locations/mississauga/roofing" element={<MississaugaRoofing />} />
+            <Route path="/locations/mississauga/renovation" element={<MississaugaRenovation />} />
+            <Route path="/locations/milton" element={<MiltonSimple />} />
+            <Route path="/locations/milton/roofing" element={<MiltonRoofing />} />
+            <Route path="/locations/milton/renovation" element={<MiltonRenovation />} />
+            <Route path="/locations/oakville" element={<OakvilleSimple />} />
+            <Route path="/locations/oakville/roofing" element={<OakvilleRoofing />} />
+            <Route path="/locations/oakville/renovation" element={<OakvilleRenovation />} />
+            <Route path="/locations/etobicoke" element={<EtobicokeSimple />} />
+            <Route path="/locations/etobicoke/roofing" element={<EtobicokeRoofing />} />
+            <Route path="/locations/etobicoke/renovation" element={<EtobicokeRenovation />} />
+            <Route path="/locations/scarborough" element={<ScarboroughSimple />} />
+            <Route path="/locations/scarborough/roofing" element={<ScarboroughRoofing />} />
+            <Route path="/locations/scarborough/renovation" element={<ScarboroughRenovation />} />
+            <Route path="/locations/vaughan" element={<VaughanSimple />} />
+            <Route path="/locations/vaughan/roofing" element={<VaughanRoofing />} />
+            <Route path="/locations/vaughan/renovation" element={<VaughanRenovation />} />
+            <Route path="/locations/markham" element={<MarkhamSimple />} />
+            <Route path="/locations/markham/roofing" element={<MarkhamRoofing />} />
+            <Route path="/locations/markham/renovation" element={<MarkhamRenovation />} />
+            <Route path="/locations/richmond-hill" element={<RichmondHillSimple />} />
+            <Route path="/locations/richmond-hill/roofing" element={<RichmondHillRoofing />} />
+            <Route path="/locations/richmond-hill/renovation" element={<RichmondHillRenovation />} />
+            <Route path="/locations/aurora" element={<AuroraSimple />} />
+            <Route path="/locations/aurora/roofing" element={<AuroraRoofing />} />
+            <Route path="/locations/aurora/renovation" element={<AuroraRenovation />} />
+            <Route path="/locations/burlington" element={<BurlingtonSimple />} />
+            <Route path="/locations/burlington/roofing" element={<BurlingtonRoofing />} />
+            <Route path="/locations/burlington/renovation" element={<BurlingtonRenovation />} />
+            <Route path="/locations/ajax" element={<AjaxSimple />} />
+            <Route path="/locations/ajax/roofing" element={<AjaxRoofing />} />
+            <Route path="/locations/ajax/renovation" element={<AjaxRenovation />} />
 
-          <Route path="/contact" element={<Contact />} />
+            <Route path="/contact" element={<Contact />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />

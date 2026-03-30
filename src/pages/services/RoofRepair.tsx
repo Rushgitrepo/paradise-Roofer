@@ -37,7 +37,7 @@ export default function RoofRepair() {
                                     Roof leaking during Toronto's next winter storm? Missing shingles after high winds? Ice dams melting into your attic?
                                 </p>
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Our licensed Toronto roof repair specialists fix all roof problems fast with FREE drone inspections, same-day emergency service, and complete insurance claim assistance across Toronto, Mississauga, Vaughan, and the entire GTA.
+                                    Our licensed Toronto roof repair specialists fix all roof problems fast with FREE drone inspections, same-day emergency service and complete insurance claim assistance across Toronto, Mississauga, Vaughan and the entire GTA.
                                 </p>
                             </div>
 
@@ -85,7 +85,7 @@ export default function RoofRepair() {
                     {/* Intro Extension */}
                     <div className="mt-12 max-w-4xl">
                         <p className="text-lg text-muted-foreground">
-                            Don't let small roof issues become expensive emergencies. Our 20+ years of experience fixing GTA roofs means we solve roof leaks, shingle damage, fascia rot, ice dams, and storm damage permanently the first time. From single shingle replacement to complete soffit/gutter/fascia restoration, we handle every Toronto roof repair with zero mess and 5-year workmanship warranties.
+                            Don't let small roof issues become expensive emergencies. Our 20+ years of experience fixing GTA roofs means we solve roof leaks, shingle damage, fascia rot, ice dams and storm damage permanently the first time. From single shingle replacement to complete soffit/gutter/fascia restoration, we handle every Toronto roof repair with zero mess and 5-year workmanship warranties.
                         </p>
                     </div>
                 </div>
@@ -184,12 +184,12 @@ export default function RoofRepair() {
                                 desc: "What Our Drones Find: Shingle granule loss patterns indicating UV damage, Soft spots signaling deck rot, Tree branch overhang risks, Ice dam formation zones, Flashing deterioration around chimneys/vents/skylights. What You Receive: 4K video tour, detailed PDF report, repair cost breakdown, insurance-ready documentation – all FREE"
                             },
                             { title: "Precision Leak Detection", desc: "Thermal imaging and moisture meters identify water migration and pinpoint entry points for permanent repair." },
-                            { title: "Shingle Repair & Replacement", desc: "Wind damage fix with color-matched materials, granule loss repair, and ridge cap replacement." },
-                            { title: "24/7 Emergency Service", desc: "Active leak response (2-hr arrival), tarping, storm damage board-up, and insurance documentation." },
+                            { title: "Shingle Repair & Replacement", desc: "Wind damage fix with color-matched materials, granule loss repair and ridge cap replacement." },
+                            { title: "24/7 Emergency Service", desc: "Active leak response (2-hr arrival), tarping, storm damage board-up and insurance documentation." },
                             { title: "Fascia Repair", desc: "Rotten wood replacement with pressure-treated or PVC boards, custom flashing to prevent future rot." },
                             { title: "Professional Soffit Repair", desc: "Continuous soffit vents installation (50% net free area) to solve attic moisture problems." },
-                            { title: "Gutter System Upgrade", desc: "Seamless aluminum gutters (5\" or 6\"), leaf guard systems, and proper slope certification." },
-                            { title: "Interior Renovation", desc: "Drywall replacement, ceiling repair, insulation restoration, and premium painting for leak damage." }
+                            { title: "Gutter System Upgrade", desc: "Seamless aluminum gutters (5\" or 6\"), leaf guard systems and proper slope certification." },
+                            { title: "Interior Renovation", desc: "Drywall replacement, ceiling repair, insulation restoration and premium painting for leak damage." }
                         ].map((service, i) => (
                             <div key={i} className="bg-muted/30 p-6 rounded-lg border border-border hover:border-[#FF9C45] transition-colors">
                                 <CheckCircle2 className="h-8 w-8 text-[#FF9C45] mb-3" />

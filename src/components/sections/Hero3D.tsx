@@ -118,7 +118,7 @@ export default function Hero3D() {
           {/* Subtext Wrapper */}
           <div data-framer-name="Subtext Wrapper">
             <p className="text-white/80 text-sm md:text-base max-w-2xl font-bold">
-              Paradise Roofing services for homes and businesses. Licensed experts handle roof installation, repair, replacement, inspections, and more with free Drone inspection and quotes, A Legacy of Diverse Projects experience in roofing services.
+              Paradise Roofers serve homes and businesses. Licensed experts handle roof installation, repair, replacement, inspections and more with free Drone inspection and quotes, A Legacy of Diverse Projects experience in roofing services.
             </p>
           </div>
         </div>

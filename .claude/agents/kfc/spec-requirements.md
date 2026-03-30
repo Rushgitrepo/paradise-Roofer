@@ -108,7 +108,7 @@ This section should have EARS requirements
 2. WHEN [event] AND [condition] THEN [system] SHALL [response]
 ```
 
-- The model SHOULD consider edge cases, user experience, technical constraints, and success criteria in the initial requirements
+- The model SHOULD consider edge cases, user experience, technical constraints and success criteria in the initial requirements
 - After updating the requirement document, the model MUST ask the user "Do the requirements look good? If so, we can move on to the design."
 - The model MUST make modifications to the requirements document if the user requests changes or does not explicitly approve
 - The model MUST ask for explicit approval after every iteration of edits to the requirements document

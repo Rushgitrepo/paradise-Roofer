@@ -143,17 +143,6 @@ export default function ContactForm({
               </div>
 
               <div>
-                <label className="block text-xs font-bold uppercase tracking-wider mb-2">Upload Plan (Optional)</label>
-                <Input
-                  name="plan"
-                  type="file"
-                  onChange={handleFileChange}
-                  accept=".pdf,.dwg,.jpg,.jpeg,.png,.zip"
-                  className="bg-gray-100/50 border-2 border-dashed border-[#FF9C45]/20 focus-visible:ring-1 focus-visible:ring-[#FF9C45] h-16 rounded-none placeholder:text-muted-foreground/50"
-                />
-              </div>
-
-              <div>
                 <label className="block text-xs font-bold uppercase tracking-wider mb-2">Message*</label>
                 <Textarea
                   name="message"

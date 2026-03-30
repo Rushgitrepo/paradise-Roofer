@@ -21,7 +21,7 @@ export default function OakvilleRoofing() {
                         <div className="grid md:grid-cols-2 gap-8 items-start">
                             <div className="space-y-4">
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Paradise Roofers proudly offers reliable roofing and renovation services in Oakville, Ontario, delivering high-quality workmanship for residential and commercial properties. With years of hands-on experience, our team is committed to protecting, improving, and enhancing your property from the roof down.
+                                    Paradise Roofers proudly offers reliable roofing and renovation services in Oakville, Ontario, delivering high-quality workmanship for residential and commercial properties. With years of hands-on experience, our team is committed to protecting, improving and enhancing your property from the roof down.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-4">
@@ -74,12 +74,12 @@ export default function OakvilleRoofing() {
                 <div className="container max-w-6xl">
                     <div className="space-y-16">
                         {[
-                            { icon: Eye, title: "Roof inspections & maintenance Services in Oakville", desc: "We offer free drone roof inspections to safely assess your roof's condition, identify damage, and spot potential issues early—no ladders, no disruption. Our Oakville maintenance services help extend the life of your roof and prevent costly repairs." },
+                            { icon: Eye, title: "Roof inspections & maintenance Services in Oakville", desc: "We offer free drone roof inspections to safely assess your roof's condition, identify damage and spot potential issues early—no ladders, no disruption. Our Oakville maintenance services help extend the life of your roof and prevent costly repairs." },
                             { icon: Home, title: "Roof installation & replacement In Oakville", desc: "Professional roof installation and roof replacement services in Oakville, Ontario, using high-quality materials for durable, weather-resistant results." },
                             { icon: Wrench, title: "Roof repairs & leak detection in Oakville", desc: "Professional roof repair and leak detection services in Oakville, Ontario, preventing water damage and costly structural issues." },
-                            { icon: Shield, title: "Asphalt shingle roofing services in Oakville", desc: "Expert asphalt shingle roofing services in Oakville, Ontario, providing reliable protection, affordability, and long-term performance." },
-                            { icon: AlertTriangle, title: "Emergency Roof Repairs in Oakville", desc: "24/7 emergency roof repair services in Oakville, offering fast, reliable response to storm damage, leaks, and urgent roofing problems to protect your home." },
-                            { icon: Hammer, title: "Eaves trough, Soffit & Fascia Services in Oakville", desc: "Professional eaves trough, soffit, and fascia services in Oakville, Ontario, protecting your home from water damage while enhancing its exterior appearance and durability." }
+                            { icon: Shield, title: "Asphalt shingle roofing services in Oakville", desc: "Expert asphalt shingle roofing services in Oakville, Ontario, providing reliable protection, affordability and long-term performance." },
+                            { icon: AlertTriangle, title: "Emergency Roof Repairs in Oakville", desc: "24/7 emergency roof repair services in Oakville, offering fast, reliable response to storm damage, leaks and urgent roofing problems to protect your home." },
+                            { icon: Hammer, title: "Eaves trough, Soffit & Fascia Services in Oakville", desc: "Professional eaves trough, soffit and fascia services in Oakville, Ontario, protecting your home from water damage while enhancing its exterior appearance and durability." }
                         ].map((item, i) => (
                             <div key={i} className="bg-white p-8 rounded-xl border border-border shadow-sm">
                                 <div className="flex items-start gap-4 mb-6">

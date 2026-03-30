@@ -36,9 +36,9 @@ const rightStats = [
 
 const features = [
   { icon: Puzzle, text: "Custom roofs fit your needs perfectly: shingles, metal, tile, or flat." },
-  { icon: MessageCircle, text: "Speak directly with pros who know roof repair, replacement, and leak detection." },
+  { icon: MessageCircle, text: "Speak directly with pros who know roof repair, replacement and leak detection." },
   { icon: Home, text: "The local team treats your property like family with top care." },
-  { icon: Search, text: "Thorough inspections spot leaks, damage, and problems before they grow." },
+  { icon: Search, text: "Thorough inspections spot leaks, damage and problems before they grow." },
 ];
 
 // Animated number component

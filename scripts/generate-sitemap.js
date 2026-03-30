@@ -22,7 +22,7 @@ const getRoutesFromApp = () => {
         const routes = [];
 
         // Regex to match <Route path="..." />
-        // Handles single quotes, double quotes, and verifies it's inside a Route component
+        // Handles single quotes, double quotes and verifies it's inside a Route component
         const routeRegex = /<Route[^>]*?path=["']([^"']+)["'][^>]*?>/g;
 
         let match;

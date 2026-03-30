@@ -81,7 +81,7 @@ export default function RoofCoating() {
                     {/* Intro Extension */}
                     <div className="mt-12 max-w-4xl">
                         <p className="text-lg text-muted-foreground">
-                            Roof coatings are not "paint." They are thick, liquid-applied membranes that cure into a seamless rubber-like shield. If your existing Modified Bitumen, TPO, EPDM, or Metal roof is aging but structurally sound, coating it is the smartest financial decision you can make. It halts rust, seals micro-cracks, and you can expense it as maintenance in a single tax year rather than capitalizing it over 39 years.
+                            Roof coatings are not "paint." They are thick, liquid-applied membranes that cure into a seamless rubber-like shield. If your existing Modified Bitumen, TPO, EPDM, or Metal roof is aging but structurally sound, coating it is the smartest financial decision you can make. It halts rust, seals micro-cracks and you can expense it as maintenance in a single tax year rather than capitalizing it over 39 years.
                         </p>
                     </div>
                 </div>
@@ -201,7 +201,7 @@ export default function RoofCoating() {
                                 step: "02",
                                 title: "Detailing Work",
                                 time: "Sealing",
-                                desc: "We apply thick mastic sealant to all penetrations, flashings, drains, and seams to reinforce weak points."
+                                desc: "We apply thick mastic sealant to all penetrations, flashings, drains and seams to reinforce weak points."
                             },
                             {
                                 step: "03",

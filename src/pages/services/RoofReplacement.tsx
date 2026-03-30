@@ -82,7 +82,7 @@ export default function RoofReplacement() {
                     {/* Intro Extension */}
                     <div className="mt-12 max-w-4xl">
                         <p className="text-lg text-muted-foreground">
-                            A roof replacement is a major investment, and the quality of installation matters just as much as the materials. Many Toronto roofers cut corners with cheap underlayment or generic flashing. We do it differently. We strip your roof to the deck, replace rotten wood, install 6-foot ice & water shields (double the code requirement), and use premium high-wind shingles to ensure your home stays dry through the harshest Canadian storms.
+                            A roof replacement is a major investment and the quality of installation matters just as much as the materials. Many Toronto roofers cut corners with cheap underlayment or generic flashing. We do it differently. We strip your roof to the deck, replace rotten wood, install 6-foot ice & water shields (double the code requirement) and use premium high-wind shingles to ensure your home stays dry through the harshest Canadian storms.
                         </p>
                     </div>
                 </div>
@@ -305,7 +305,7 @@ export default function RoofReplacement() {
                                 { q: "Will insurance cover my roof replacement?", a: "Paradise roofers assist you for the insurance claim process under the STORM CARE PROGRAM, 95% success rate. We provide drone documentation, Xactimate estimates, speak directly to adjusters. Most wind/hail claims approved." },
                                 { q: "Is roof replacement messy for my property?", a: "Zero mess guarantee. Dumpster positioned street-side. Magnetic boots on crews. Continuous magnet sweeps. Final pressure wash + yard magnet sweeps before leaving." },
                                 { q: "What warranties come with new roof replacement?", a: "10 years Paradise workmanship warranty + lifetime manufacturer material warranty (pro-rated after year 10). Fully transferable boosts resale value." },
-                                { q: "Do you handle fascia, soffits, and gutters too?", a: "Complete exterior packages available. Roof replacement + fascia/soffit/gutter/insulation – one trusted crew handles everything seamlessly." },
+                                { q: "Do you handle fascia, soffits and gutters too?", a: "Complete exterior packages available. Roof replacement + fascia/soffit/gutter/insulation – one trusted crew handles everything seamlessly." },
                                 { q: "Are installations Toronto Building Code compliant?", a: "100% compliant. 160km/h wind nailing, 42\" ice barriers, proper flashing specifications per Ontario Building Code roofing standards." }
                             ].map((faq, i) => (
                                 <div key={i} className="bg-muted/30 p-6 rounded-lg border border-border">

@@ -24,7 +24,7 @@ export default function MississaugaRenovation() {
                         <div className="grid md:grid-cols-2 gap-8 items-start">
                             <div className="space-y-4">
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Paradise Roofers proudly offers reliable roofing and renovation services in Mississauga, Ontario, delivering high-quality workmanship for residential and commercial properties. With years of hands-on experience, our team is committed to protecting, improving, and enhancing your property from the roof down.
+                                    Paradise Roofers proudly offers reliable roofing and renovation services in Mississauga, Ontario, delivering high-quality workmanship for residential and commercial properties. With years of hands-on experience, our team is committed to protecting, improving and enhancing your property from the roof down.
                                 </p>
                             </div>
 
@@ -60,7 +60,7 @@ export default function MississaugaRenovation() {
                         </div>
                         <div>
                             <h2 className="text-4xl md:text-5xl font-bold uppercase mb-4 tracking-tight">🛠️ Renovation Services</h2>
-                            <p className="text-lg font-medium text-muted-foreground">Our renovation services help modernize, repair, and add value to your home or business:</p>
+                            <p className="text-lg font-medium text-muted-foreground">Our renovation services help modernize, repair and add value to your home or business:</p>
                         </div>
                     </div>
 
@@ -95,7 +95,7 @@ export default function MississaugaRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Windows Repair & Replacement in Mississauga</h3>
                                     <p className="text-muted-foreground">
-                                        Professional window repair and replacement services in Mississauga, Ontario, improving energy efficiency, enhancing security, and giving your home a fresh, modern look.
+                                        Professional window repair and replacement services in Mississauga, Ontario, improving energy efficiency, enhancing security and giving your home a fresh, modern look.
                                     </p>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ export default function MississaugaRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Attic Insulation Services in Mississauga</h3>
                                     <p className="text-muted-foreground">
-                                        Professional attic insulation services in Mississauga, Ontario, improving energy efficiency with R60 Level, reducing heating and cooling costs, and keeping your home comfortable year-round.
+                                        Professional attic insulation services in Mississauga, Ontario, improving energy efficiency with R60 Level, reducing heating and cooling costs and keeping your home comfortable year-round.
                                     </p>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ export default function MississaugaRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Drywall & Painting Services in Mississauga</h3>
                                     <p className="text-muted-foreground">
-                                        Expert drywall installation, repair, and professional painting services in Mississauga, Ontario, enhancing your home's interior with smooth finishes, vibrant colors, and lasting quality.
+                                        Expert drywall installation, repair and professional painting services in Mississauga, Ontario, enhancing your home's interior with smooth finishes, vibrant colors and lasting quality.
                                     </p>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@ export default function MississaugaRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Structural Repairs in Mississauga</h3>
                                     <p className="text-muted-foreground">
-                                        Expert structural repair services in Mississauga, Ontario, ensuring the safety, stability, and longevity of your home or building with professional solutions and high-quality materials.
+                                        Expert structural repair services in Mississauga, Ontario, ensuring the safety, stability and longevity of your home or building with professional solutions and high-quality materials.
                                     </p>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@ export default function MississaugaRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Siding & Exterior Finishes in Mississauga</h3>
                                     <p className="text-muted-foreground">
-                                        Professional siding installation, repair, and exterior finishing services in Mississauga, Ontario, enhancing your home's curb appeal, durability, and protection against the elements.
+                                        Professional siding installation, repair and exterior finishing services in Mississauga, Ontario, enhancing your home's curb appeal, durability and protection against the elements.
                                     </p>
                                 </div>
                             </div>
@@ -165,7 +165,7 @@ export default function MississaugaRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Property Restoration Projects in Mississauga</h3>
                                     <p className="text-muted-foreground">
-                                        Comprehensive property restoration services in Mississauga, Ontario, restoring homes and buildings after damage with expert craftsmanship, high-quality materials, and efficient project management.
+                                        Comprehensive property restoration services in Mississauga, Ontario, restoring homes and buildings after damage with expert craftsmanship, high-quality materials and efficient project management.
                                     </p>
                                 </div>
                             </div>

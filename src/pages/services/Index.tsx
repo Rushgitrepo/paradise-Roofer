@@ -11,7 +11,7 @@ import roofReplacementImg from "@/assets/Home_page/Roof_Replacement_New.png";
 import fasciaRepairImg from "@/assets/Home_page/Fascia_Repair_New.png";
 import guttersRepairImg from "@/assets/Home_page/GutterRepairServices.webp";
 import soffitRepairImg from "@/assets/Home_page/Soffit_Repair_New.png";
-import atticInsulationImg from "@/assets/Home_page/AtticInsulationTorontoGTA.webp";
+import atticInsulationImg from "@/assets/Home_page/AtticInsulationTorontoGTA.jpg";
 import interiorRenosImg from "@/assets/Home_page/CompleteInteriorRenovationsinTorontoGTA.webp";
 import residentialRoofingImg from "@/assets/Home_page/ResidentialRoofingSolutions.webp";
 import commercialRoofingImg from "@/assets/Home_page/CommercialServicesCommercialFlatRoofingSystemsToronto.webp";
@@ -21,8 +21,8 @@ const services = [
   {
     id: "inspection",
     title: "Roof Inspections",
-    subtitle: "Spot problems early, fix them fast, and keep your roof happy.",
-    description: "Our maintenance and inspection service is like a checkup for your roof—preventing big issues with a little love, care, and expert eyes.",
+    subtitle: "Spot problems early, fix them fast and keep your roof happy.",
+    description: "Our maintenance and inspection service is like a checkup for your roof—preventing big issues with a little love, care and expert eyes.",
     image: roofInspectionImg,
     icon: Calendar,
     tags: ["Drone Roof Inspections", "Detailed Digital Reports", "Leak Detection", "Storm Damage Assessment", "Preventative Maintenance"],
@@ -52,7 +52,7 @@ const services = [
     id: "replacement",
     title: "Roof Replacement",
     subtitle: "Complete roof system upgrades with lifetime warranties",
-    description: "When it's time for a new roof, trust our Master Elite installers. We provide full tear-offs, premium underlayment, and expert installation of top-tier shingle systems.",
+    description: "When it's time for a new roof, trust our Master Elite installers. We provide full tear-offs, premium underlayment and expert installation of top-tier shingle systems.",
     image: roofReplacementImg,
     icon: ShieldCheck,
     tags: ["Full Tear-Offs", "Premium Asphalt Shingles", "Metal Roofing Options", "Warranty Protection", "Ventilation Upgrades"],
@@ -72,7 +72,7 @@ const services = [
     id: "gutters",
     title: "Gutters Repair & Replacement",
     subtitle: "Seamless water management systems",
-    description: "Keep your foundation safe with high-capacity 5\" and 6\" seamless gutter systems. We repair leaks, realign slopes, and install full replacements with leaf guards.",
+    description: "Keep your foundation safe with high-capacity 5\" and 6\" seamless gutter systems. We repair leaks, realign slopes and install full replacements with leaf guards.",
     image: guttersRepairImg,
     icon: Ruler,
     tags: ["Seamless Gutters", "Gutter Cleaning", "Leaf Guards", "Downspout Extensions", "Re-sloping & Realignment"],
@@ -92,7 +92,7 @@ const services = [
     id: "attic-insulation",
     title: "Attic Insulation",
     subtitle: "Boost energy efficiency and prevent ice dams",
-    description: "Upgrade your attic with R50 blown-in insulation. Proper insulation keeps your home warm in winter, cool in summer, and stops heat loss that causes ice dams.",
+    description: "Upgrade your attic with R50 blown-in insulation. Proper insulation keeps your home warm in winter, cool in summer and stops heat loss that causes ice dams.",
     image: atticInsulationImg,
     icon: Thermometer,
     tags: ["Blown-in Cellulose", "Fiberglass Batts", "R-Value Upgrades", "Air Sealing", "Energy Rebate Eligible"],
@@ -122,7 +122,7 @@ const services = [
     id: "commercial",
     title: "Commercial Roofing",
     subtitle: "Scalable solutions for businesses and industrial properties",
-    description: "Specialized flat roofing systems including TPO, EPDM, and Tar & Gravel. We deliver durable, code-compliant roofing for warehouses, plazas, and office buildings.",
+    description: "Specialized flat roofing systems including TPO, EPDM and Tar & Gravel. We deliver durable, code-compliant roofing for warehouses, plazas and office buildings.",
     image: commercialRoofingImg,
     icon: Building2,
     tags: ["Flat Roof Systems", "TPO & EPDM", "Tar & Gravel", "Commercial Roof Coatings", "Maintenance Plans"],
@@ -132,7 +132,7 @@ const services = [
     id: "coating",
     title: "Roof Coating & Restoration",
     subtitle: "Extend your roof life by 20 years for half the cost",
-    description: "Don't replace—restore. Our silicone roof coating systems waterproof your existing commercial roof, stop leaks instantly, and reflect UV rays to lower cooling costs.",
+    description: "Don't replace—restore. Our silicone roof coating systems waterproof your existing commercial roof, stop leaks instantly and reflect UV rays to lower cooling costs.",
     image: roofCoatingImg,
     icon: Droplets,
     tags: ["Silicone Coatings", "Leak Stop", "Cool Roof Technology", "Cost Savings", "20-Year Warranty"],

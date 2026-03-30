@@ -21,7 +21,7 @@ export default function MiltonRenovation() {
                         <div className="grid md:grid-cols-2 gap-8 items-start">
                             <div className="space-y-4">
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Paradise Roofers proudly offers reliable roofing and renovation services in Milton, Ontario, delivering high-quality workmanship for residential and commercial properties. With years of hands-on experience, our team is committed to protecting, improving, and enhancing your property from the roof down.
+                                    Paradise Roofers proudly offers reliable roofing and renovation services in Milton, Ontario, delivering high-quality workmanship for residential and commercial properties. With years of hands-on experience, our team is committed to protecting, improving and enhancing your property from the roof down.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-4">
@@ -56,7 +56,7 @@ export default function MiltonRenovation() {
                         </div>
                         <div>
                             <h2 className="text-4xl md:text-5xl font-bold uppercase mb-4 tracking-tight">🛠️ Renovation Services</h2>
-                            <p className="text-lg font-medium text-muted-foreground">Our renovation services help modernize, repair, and add value to your home or business:</p>
+                            <p className="text-lg font-medium text-muted-foreground">Our renovation services help modernize, repair and add value to your home or business:</p>
                         </div>
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -81,7 +81,7 @@ export default function MiltonRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Windows Repair & Replacement in Milton</h3>
                                     <p className="text-muted-foreground">
-                                        Professional window repair and replacement services in Milton, Ontario, improving energy efficiency, enhancing security, and giving your home a fresh, modern look.
+                                        Professional window repair and replacement services in Milton, Ontario, improving energy efficiency, enhancing security and giving your home a fresh, modern look.
                                     </p>
                                 </div>
                             </div>
@@ -94,7 +94,7 @@ export default function MiltonRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Attic Insulation Services in Milton</h3>
                                     <p className="text-muted-foreground">
-                                        Professional attic insulation services in Milton, Ontario, improving energy efficiency with R60 Level, reducing heating and cooling costs, and keeping your home comfortable year-round.
+                                        Professional attic insulation services in Milton, Ontario, improving energy efficiency with R60 Level, reducing heating and cooling costs and keeping your home comfortable year-round.
                                     </p>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@ export default function MiltonRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Drywall & Painting Services in Milton</h3>
                                     <p className="text-muted-foreground">
-                                        Expert drywall installation, repair, and professional painting services in Milton, Ontario, enhancing your home's interior with smooth finishes, vibrant colors, and lasting quality.
+                                        Expert drywall installation, repair and professional painting services in Milton, Ontario, enhancing your home's interior with smooth finishes, vibrant colors and lasting quality.
                                     </p>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@ export default function MiltonRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Exterior Renovations & Upgrades in Milton</h3>
                                     <p className="text-muted-foreground">
-                                        Professional exterior renovation and upgrade services in Milton, Ontario, enhancing your home's curb appeal, durability, and overall value with high-quality materials and expert craftsmanship.
+                                        Professional exterior renovation and upgrade services in Milton, Ontario, enhancing your home's curb appeal, durability and overall value with high-quality materials and expert craftsmanship.
                                     </p>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@ export default function MiltonRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Structural Repairs in Milton</h3>
                                     <p className="text-muted-foreground">
-                                        Expert structural repair services in Milton, Ontario, ensuring the safety, stability, and longevity of your home or building with professional solutions and high-quality materials.
+                                        Expert structural repair services in Milton, Ontario, ensuring the safety, stability and longevity of your home or building with professional solutions and high-quality materials.
                                     </p>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@ export default function MiltonRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Siding & Exterior Finishes in Milton</h3>
                                     <p className="text-muted-foreground">
-                                        Professional siding installation, repair, and exterior finishing services in Milton, Ontario, enhancing your home's curb appeal, durability, and protection against the elements.
+                                        Professional siding installation, repair and exterior finishing services in Milton, Ontario, enhancing your home's curb appeal, durability and protection against the elements.
                                     </p>
                                 </div>
                             </div>
@@ -159,7 +159,7 @@ export default function MiltonRenovation() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Property Restoration Projects in Milton</h3>
                                     <p className="text-muted-foreground">
-                                        Comprehensive property restoration services in Milton, Ontario, restoring homes and buildings after damage with expert craftsmanship, high-quality materials, and efficient project management.
+                                        Comprehensive property restoration services in Milton, Ontario, restoring homes and buildings after damage with expert craftsmanship, high-quality materials and efficient project management.
                                     </p>
                                 </div>
                             </div>

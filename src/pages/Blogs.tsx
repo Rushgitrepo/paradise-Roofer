@@ -21,7 +21,7 @@ const blogPosts = [
   },
   {
     title: "Choosing the Right Roofing Material: A Homeowner's Simple Guide",
-    excerpt: "Compare asphalt, metal, tile, and more to find your perfect match.",
+    excerpt: "Compare asphalt, metal, tile and more to find your perfect match.",
     image: metalRoof,
     category: "Guides",
     author: "Bramwell Cutter",
@@ -29,7 +29,7 @@ const blogPosts = [
   },
   {
     title: "Roof Repair vs. Replacement: How to Make the Right Call",
-    excerpt: "When is it time to patch, and when should you start fresh?",
+    excerpt: "When is it time to patch and when should you start fresh?",
     image: completedRoof,
     category: "Guides",
     author: "Thayer June",
@@ -45,7 +45,7 @@ const blogPosts = [
   },
   {
     title: "Roofing Industry Update 2025: What's Changing (And What It Means For You)",
-    excerpt: "New materials, regulations, and trends shaping the roofing world.",
+    excerpt: "New materials, regulations and trends shaping the roofing world.",
     image: metalRoof,
     category: "News",
     author: "Thayer June",
@@ -92,7 +92,7 @@ export default function Blogs() {
         <div className="container">
           <span className="section-label mb-4 inline-block">Blogs</span>
           <h1 className="headline-xl text-4xl md:text-5xl lg:text-6xl max-w-4xl">
-            Stories, Lessons, And Insights
+            Stories, Lessons and Insights
             <br />
             From Up High (So You Don't
             <br />
@@ -111,8 +111,8 @@ export default function Blogs() {
                 key={category}
                 onClick={() => setActiveCategory(category)}
                 className={`px-4 py-2 text-sm font-medium uppercase tracking-wide transition-colors ${activeCategory === category
-                    ? "bg-foreground text-background"
-                    : "bg-muted hover:bg-muted/80"
+                  ? "bg-foreground text-background"
+                  : "bg-muted hover:bg-muted/80"
                   }`}
               >
                 {category}

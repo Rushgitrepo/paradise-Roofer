@@ -20,67 +20,67 @@ import residentialRoofingImg from "@/assets/Home_page/ResidentialRoofingSolution
 import commercialRoofingImg from "@/assets/Home_page/CommercialServicesCommercialFlatRoofingSystemsToronto.webp";
 import soffitRepairImg from "@/assets/Home_page/Soffit_Repair_New.png";
 import fasciaRepairImg from "@/assets/Home_page/Fascia_Repair_New.png";
-import atticInsulationImg from "@/assets/Home_page/AtticInsulationTorontoGTA.webp";
+import atticInsulationImg from "@/assets/Home_page/AtticInsulationTorontoGTA.jpg";
 import interiorRenosImg from "@/assets/Home_page/CompleteInteriorRenovationsinTorontoGTA.webp";
 
 const services = [
   {
     title: "Free Drone Roof Inspection",
-    description: "Our free drone roof inspection provides a safe, high-definition aerial health check of your entire roofing system, capturing hidden damage in minutes without ever setting foot on your shingles.",
+    description: "Professional drone inspection service delivering accurate, efficient and high-quality roof inspection for homes and businesses with safety and reliability.",
     image: roofInspectionImg,
     href: "/services/inspection",
   },
   {
     title: "Roof Repair",
-    description: "Fix leaks, Replace shingles, damage fast. Includes leak detection, wind/hail, storm repair.",
+    description: "Professional roof repair service delivering reliable, efficient and high-quality damage solutions for homes and businesses with safety and durability.",
     image: roofRepairImg,
     href: "/services/repair",
   },
   {
     title: "Roof Installation",
-    description: "New roofs built right: asphalt shingle for homes and commercial properties.",
+    description: "Professional roof installation service delivering reliable, efficient and high-quality roofing solutions for homes and businesses with safety and durability.",
     image: roofInstallationImg,
     href: "/services/installation",
   },
   {
     title: "Roof Replacement",
-    description: "Remove old roofs, install durable upgrades. Residential and commercial specialists.",
+    description: "Professional roof replacement service delivering reliable, efficient and high-quality upgrade solutions for homes and businesses with safety and durability.",
     image: roofReplacementImg,
     href: "/services/replacement",
   },
   {
     title: "Residential Roofing",
-    description: "Tailored for homeowners.",
+    description: "Professional residential roofing service delivering reliable, efficient and high-quality home solutions for homeowners and properties with safety and durability.",
     image: residentialRoofingImg,
     href: "/services/residential",
   },
   {
     title: "Soffit Repair & Replacement",
-    description: "Vented soffits fix attic moisture, ice dams",
+    description: "Professional soffit repair service delivering reliable, efficient and high-quality ventilation solutions for homes and businesses with safety and durability.",
     image: soffitRepairImg,
     href: "/services/soffit",
   },
   {
     title: "Fascia Repair & Replacement",
-    description: "Durable fascia stops rot, protects gutters",
+    description: "Professional fascia repair service delivering reliable, efficient and high-quality protection solutions for homes and businesses with safety and durability.",
     image: fasciaRepairImg,
     href: "/services/fascia",
   },
   {
     title: "Gutters Repair & Replacement",
-    description: "Seamless gutters prevent foundation damage",
+    description: "Professional gutter repair service delivering reliable, efficient and high-quality drainage solutions for homes and businesses with safety and durability.",
     image: gutterRepairImg,
     href: "/services/gutters",
   },
   {
     title: "Attic Insulation",
-    description: "R60 insulation cuts bills, stops ice dams",
+    description: "Professional attic insulation service delivering reliable, efficient and high-quality energy solutions for homes and businesses with safety and durability.",
     image: atticInsulationImg,
     href: "/services/attic-insulation",
   },
   {
     title: "All Interior Renos",
-    description: "Ceiling repair from Roof leak damage services Kitchen, Bathroom renos, windows, drywall paint, tiles, and plumbing services.",
+    description: "Professional interior renovation service delivering reliable, efficient and high-quality improvement solutions for homes and businesses with safety and durability.",
     image: interiorRenosImg,
     href: "/services/interior-renos",
   },
@@ -89,7 +89,7 @@ const services = [
 const faqs = [
   {
     question: "How much does roof repair cost in GTA, Toronto?",
-    answer: "Roof repair costs $299, depending on damage size, materials, and location. Free drone inspection available.",
+    answer: "Roof repair costs $299, depending on damage size, materials and location. Free drone inspection available.",
   },
   {
     question: "How long does a new roof last in Canada?",
@@ -101,7 +101,7 @@ const faqs = [
   },
   {
     question: "Do you offer free roof inspections in Canada?",
-    answer: "Yes, free on-site inspections for homes and businesses. We check shingles, leaks, ventilation, and gutters using drone tech.",
+    answer: "Yes, free on-site inspections for homes and businesses. We check shingles, leaks, ventilation and gutters using drone tech.",
   },
   {
     question: "When should I replace my roof?",

@@ -9,17 +9,17 @@ const reasons = [
   {
     icon: Award,
     title: "Certified Roofing Experts",
-    description: "Verified experts with Extensive Industry Expertise. We exceed industry standards for quality roof installation, repair, and replacement."
+    description: "Verified experts with Extensive Industry Expertise. We exceed industry standards for quality roof installation, repair and replacement."
   },
   {
     icon: Package,
     title: "Premium Roofing Materials",
-    description: "Top-grade American shingles that withstand storms, hail, and harsh weather."
+    description: "Top-grade American shingles that withstand storms, hail and harsh weather."
   },
   {
     icon: DollarSign,
     title: "Affordable Pricing",
-    description: "Honest, affordable rates for roof repair, replacement, gutters, inspections, and all services have no hidden fees, just great value."
+    description: "Honest, affordable rates for roof repair, replacement, gutters, inspections and all services have no hidden fees, just great value."
   },
 ];
 

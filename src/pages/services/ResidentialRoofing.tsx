@@ -81,7 +81,7 @@ export default function ResidentialRoofing() {
                     {/* Intro Extension */}
                     <div className="mt-12 max-w-4xl">
                         <p className="text-lg text-muted-foreground">
-                            Roofing isn't just nailing shingles. It's a complex system of intake ventilation, vapor barriers, ice shields, flashings, and exhaust. If one piece is missing, the system fails. We treat every home like it's our mother's house. No nail guns set too deep, no shortcuts on the underlayment. Just honest, rock-solid craftsmanship that lets you sleep at night when the wind howls.
+                            Roofing isn't just nailing shingles. It's a complex system of intake ventilation, vapor barriers, ice shields, flashings and exhaust. If one piece is missing, the system fails. We treat every home like it's our mother's house. No nail guns set too deep, no shortcuts on the underlayment. Just honest, rock-solid craftsmanship that lets you sleep at night when the wind howls.
                         </p>
                     </div>
                 </div>
@@ -273,7 +273,7 @@ export default function ResidentialRoofing() {
                     <h2 className="text-2xl md:text-3xl font-bold uppercase mb-8">Homeowner FAQs</h2>
                     <div className="grid md:grid-cols-2 gap-6">
                         {[
-                            { q: "How much does a new roof cost?", a: "An average Toronto home (2000 sq ft) typically costs between $6,000 and $10,000 depending on pitch, layers, and material quality." },
+                            { q: "How much does a new roof cost?", a: "An average Toronto home (2000 sq ft) typically costs between $6,000 and $10,000 depending on pitch, layers and material quality." },
                             { q: "How long does it take?", a: "90% of our residential jobs are completed in 1 day. Large complex roofs may take 2 days." },
                             { q: "Do you offer financing?", a: "Yes, we have plans starting at 0% interest for 12 months, or low monthly payments over 5 years." },
                             { q: "Is the warranty transferrable?", a: "Yes. GAF and CertainTeed warranties can be transferred to the new owner if you sell your home." },

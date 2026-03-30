@@ -30,10 +30,10 @@ export default function GuttersRepair() {
                         <div className="grid md:grid-cols-2 gap-8 items-start">
                             <div className="space-y-4">
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Leaking eavesdrops flooding your Toronto foundation? Clogged gutters causing ice dams and fascia rot? Our licensed gutter specialists provide complete eavestrough repair and replacement across Toronto, Mississauga, Brampton, Milton, Oakville and entire GTA with seamless aluminum gutters, leaf guard systems, proper fascia integration, and 24/7 emergency response.
+                                    Leaking eavesdrops flooding your Toronto foundation? Clogged gutters causing ice dams and fascia rot? Our licensed gutter specialists provide complete eavestrough repair and replacement across Toronto, Mississauga, Brampton, Milton, Oakville and entire GTA with seamless aluminum gutters, leaf guard systems, proper fascia integration and 24/7 emergency response.
                                 </p>
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Don't let failing gutters destroy your home's exterior, foundation, and landscaping. We serve all GTA with custom seamless fabrication, gutter cleaning, downspout replacement, heated gutter guards, and complete fascia/soffit/gutter packages that work together perfectly.
+                                    Don't let failing gutters destroy your home's exterior, foundation and landscaping. We serve all GTA with custom seamless fabrication, gutter cleaning, downspout replacement, heated gutter guards and complete fascia/soffit/gutter packages that work together perfectly.
                                 </p>
                             </div>
 
@@ -107,7 +107,7 @@ export default function GuttersRepair() {
                                 icon: Droplets,
                                 points: [
                                     "Leaves clog 80% of gutters yearly",
-                                    "Toronto's trees drop heavy debris that blocks flow, rotting fascia, staining siding, and eroding foundations",
+                                    "Toronto's trees drop heavy debris that blocks flow, rotting fascia, staining siding and eroding foundations",
                                     "By November, most gutters overflow completely"
                                 ]
                             },
@@ -133,7 +133,7 @@ export default function GuttersRepair() {
                                 title: "4. Gutters Sag When Poorly Sloped",
                                 icon: Ruler,
                                 points: [
-                                    "No proper pitch means standing water, more rot, and landscaping damage",
+                                    "No proper pitch means standing water, more rot and landscaping damage",
                                     "Needs 1/4\" drop every 10 feet",
                                     "Poor slope causes multiple problems"
                                 ]

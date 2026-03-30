@@ -2,7 +2,7 @@ import Layout from "@/components/layout/Layout";
 import ContactForm from "@/components/sections/ContactForm";
 import { Phone, ArrowRight, MapPin, Thermometer, DollarSign, Home, CheckCircle2, AlertTriangle, Snowflake } from "lucide-react";
 import { Link } from "react-router-dom";
-import atticInsulation from "@/assets/Home_page/AtticInsulationTorontoGTA.webp";
+import atticInsulation from "@/assets/Home_page/AtticInsulationTorontoGTA.jpg";
 
 export default function AtticInsulation() {
     return (
@@ -154,7 +154,7 @@ export default function AtticInsulation() {
                             {
                                 title: "Health & Comfort",
                                 icon: Thermometer,
-                                desc: "Uneven temperatures create drafts, humidity issues, and force HVAC systems to overwork."
+                                desc: "Uneven temperatures create drafts, humidity issues and force HVAC systems to overwork."
                             }
                         ].map((item, i) => (
                             <div key={i} className="bg-muted/30 p-6 rounded-xl border border-border hover:border-[#FF9C45] transition-colors">
@@ -282,7 +282,7 @@ export default function AtticInsulation() {
                     <div className="mt-8 bg-[#F9F9F9] p-6 rounded-xl border border-border">
                         <p className="text-sm text-muted-foreground">
                             <strong>Calculations based on:</strong> Natural gas at $1.20/m³, electricity at $0.17/kWh (Toronto Hydro 2024 rates),
-                            1,500 sq ft home, 2,200 heating degree days. Actual savings vary by home size, age, and usage patterns.
+                            1,500 sq ft home, 2,200 heating degree days. Actual savings vary by home size, age and usage patterns.
                         </p>
                     </div>
                 </div>
@@ -378,7 +378,7 @@ export default function AtticInsulation() {
                         {[
                             { title: "Blown-in Insulation", desc: "Top-up with premium Owens Corning fiberglass or cellulose to achieve R60 thermal resistance." },
                             { title: "Baffle Installation", desc: "We install rafter baffles at every soffit vent to ensure fresh air intake is never blocked by insulation." },
-                            { title: "Air Sealing", desc: "We find and foam-seal gaps around pot lights, plumbing stacks, and electrical wires preventing heat loss." },
+                            { title: "Air Sealing", desc: "We find and foam-seal gaps around pot lights, plumbing stacks and electrical wires preventing heat loss." },
                             { title: "Hatch Weatherstripping", desc: "We build a localized dam box around your access hatch and insulate the lid to stop drafts." },
                             { title: "Old Insulation Removal", desc: "Safe vacuum removal of old, animal-contaminated, or vermiculite insulation." },
                             { title: "Mold Remediation", desc: "Treatment of mold on attic sheathing caused by previous moisture issues." },
@@ -405,7 +405,7 @@ export default function AtticInsulation() {
                                 step: "01",
                                 title: "Free Attic Assessment",
                                 time: "30 Minutes",
-                                desc: "We measure current R-value, check for air leaks, inspect ventilation, and calculate exact insulation needed for R50."
+                                desc: "We measure current R-value, check for air leaks, inspect ventilation and calculate exact insulation needed for R50."
                             },
                             {
                                 step: "02",

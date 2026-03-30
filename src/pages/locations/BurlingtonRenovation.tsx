@@ -21,7 +21,7 @@ export default function BurlingtonRenovation() {
                         <div className="grid md:grid-cols-2 gap-8 items-start">
                             <div className="space-y-4">
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Paradise Roofers proudly offers reliable roofing and renovation services in Burlington, Ontario, delivering high-quality workmanship for residential and commercial properties. With years of hands-on experience, our team is committed to protecting, improving, and enhancing your property from the roof down.
+                                    Paradise Roofers proudly offers reliable roofing and renovation services in Burlington, Ontario, delivering high-quality workmanship for residential and commercial properties. With years of hands-on experience, our team is committed to protecting, improving and enhancing your property from the roof down.
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-4">
@@ -56,7 +56,7 @@ export default function BurlingtonRenovation() {
                         </div>
                         <div>
                             <h2 className="text-4xl md:text-5xl font-bold uppercase mb-4 tracking-tight">🛠️ Renovation Services</h2>
-                            <p className="text-lg font-medium text-muted-foreground">Our renovation services help modernize, repair, and add value to your home or business:</p>
+                            <p className="text-lg font-medium text-muted-foreground">Our renovation services help modernize, repair and add value to your home or business:</p>
                         </div>
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -74,13 +74,13 @@ export default function BurlingtonRenovation() {
                 <div className="container max-w-6xl">
                     <div className="space-y-16">
                         {[
-                            { icon: Home, title: "Windows Repair & Replacement in Burlington", desc: "Professional window repair and replacement services in Burlington, Ontario, improving energy efficiency, enhancing security, and giving your home a fresh, modern look." },
-                            { icon: Layers, title: "Attic Insulation Services in Burlington", desc: "Professional attic insulation services in Burlington, Ontario, improving energy efficiency with R60 Level, reducing heating and cooling costs, and keeping your home comfortable year-round." },
-                            { icon: Paintbrush, title: "Drywall & Painting Services in Burlington", desc: "Expert drywall installation, repair, and professional painting services in Burlington, Ontario, enhancing your home's interior with smooth finishes, vibrant colors, and lasting quality." },
-                            { icon: Building, title: "Exterior Renovations & Upgrades in Burlington", desc: "Professional exterior renovation and upgrade services in Burlington, Ontario, enhancing your home's curb appeal, durability, and overall value with high-quality materials and expert craftsmanship." },
-                            { icon: Shield, title: "Structural Repairs in Burlington", desc: "Expert structural repair services in Burlington, Ontario, ensuring the safety, stability, and longevity of your home or building with professional solutions and high-quality materials." },
-                            { icon: Wind, title: "Siding & Exterior Finishes in Burlington", desc: "Professional siding installation, repair, and exterior finishing services in Burlington, Ontario, enhancing your home's curb appeal, durability, and protection against the elements." },
-                            { icon: Hammer, title: "Property Restoration Projects in Burlington", desc: "Comprehensive property restoration services in Burlington, Ontario, restoring homes and buildings after damage with expert craftsmanship, high-quality materials, and efficient project management." }
+                            { icon: Home, title: "Windows Repair & Replacement in Burlington", desc: "Professional window repair and replacement services in Burlington, Ontario, improving energy efficiency, enhancing security and giving your home a fresh, modern look." },
+                            { icon: Layers, title: "Attic Insulation Services in Burlington", desc: "Professional attic insulation services in Burlington, Ontario, improving energy efficiency with R60 Level, reducing heating and cooling costs and keeping your home comfortable year-round." },
+                            { icon: Paintbrush, title: "Drywall & Painting Services in Burlington", desc: "Expert drywall installation, repair and professional painting services in Burlington, Ontario, enhancing your home's interior with smooth finishes, vibrant colors and lasting quality." },
+                            { icon: Building, title: "Exterior Renovations & Upgrades in Burlington", desc: "Professional exterior renovation and upgrade services in Burlington, Ontario, enhancing your home's curb appeal, durability and overall value with high-quality materials and expert craftsmanship." },
+                            { icon: Shield, title: "Structural Repairs in Burlington", desc: "Expert structural repair services in Burlington, Ontario, ensuring the safety, stability and longevity of your home or building with professional solutions and high-quality materials." },
+                            { icon: Wind, title: "Siding & Exterior Finishes in Burlington", desc: "Professional siding installation, repair and exterior finishing services in Burlington, Ontario, enhancing your home's curb appeal, durability and protection against the elements." },
+                            { icon: Hammer, title: "Property Restoration Projects in Burlington", desc: "Comprehensive property restoration services in Burlington, Ontario, restoring homes and buildings after damage with expert craftsmanship, high-quality materials and efficient project management." }
                         ].map((item, i) => (
                             <div key={i} className="bg-white p-8 rounded-xl border border-border shadow-sm">
                                 <div className="flex items-start gap-4 mb-6">

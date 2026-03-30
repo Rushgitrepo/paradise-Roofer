@@ -11,7 +11,7 @@ import completedRoof from "@/assets/completed-roof.jpg";
 const roofingTypes = [
   {
     name: "Asphalt Shingle",
-    description: "Affordable, reliable, and made to handle the heat (and the hail).",
+    description: "Affordable, reliable and made to handle the heat (and the hail).",
     image: asphaltShingle,
     lifespan: "15-30 years",
     price: "$3.50 to $5.50 per sq. ft. (installed)",
@@ -25,7 +25,7 @@ const roofingTypes = [
   },
   {
     name: "Concrete Tile",
-    description: "Stylish, tough, and made to mimic high-end without the high cost.",
+    description: "Stylish, tough and made to mimic high-end without the high cost.",
     image: completedRoof,
     lifespan: "40-75 years",
     price: "$8.00 - $12.00 per sq. ft. (installed)",
@@ -39,21 +39,21 @@ const roofingTypes = [
   },
   {
     name: "Metal Roofing",
-    description: "Sleek, strong, and built to outlast your neighbor's roof.",
+    description: "Sleek, strong and built to outlast your neighbor's roof.",
     image: metalRoof,
     lifespan: "40-70+ years",
     price: "$7.00 - $14.00 per sq. ft. (installed)",
   },
   {
     name: "Architectural",
-    description: "More dimension, more durability, and way more curb appeal.",
+    description: "More dimension, more durability and way more curb appeal.",
     image: asphaltShingle,
     lifespan: "25-40 years",
     price: "$4.50 - $7.50 per sq. ft. (installed)",
   },
   {
     name: "Wood Shake",
-    description: "Rustic vibes, natural beauty, and a roof that stands out.",
+    description: "Rustic vibes, natural beauty and a roof that stands out.",
     image: woodShake,
     lifespan: "20-30 years",
     price: "$6.00 - $10.00 per sq. ft. (installed)",
@@ -74,7 +74,7 @@ const roofingTypes = [
   },
   {
     name: "Flat Roofing",
-    description: "Efficient, low-profile, and made for businesses—or modern homes.",
+    description: "Efficient, low-profile and made for businesses—or modern homes.",
     image: metalRoof,
     lifespan: "15-30 years",
     price: "$4.00 - $8.00 per sq. ft. (installed)",
@@ -93,7 +93,7 @@ export default function RoofingTypes() {
             <br />
             Difference—Explore Our
             <br />
-            Materials, Styles, And Systems
+            Materials, Styles and Systems
           </h1>
         </div>
       </section>

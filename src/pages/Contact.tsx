@@ -11,7 +11,7 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    items: ["[sales@paradiseroofers.com]"],
+    items: ["sales@paradiseroofers.com"],
   },
   {
     icon: MapPin,
@@ -101,10 +101,10 @@ export default function Contact() {
           {/* Right: Map */}
           <div className="lg:w-1/2 min-h-[500px] bg-gray-100 relative">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115456.97486806547!2d-97.7430608!3d30.267153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1689623456789!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2089.9191468991266!2d-79.37470069999999!3d43.65243759999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb315883a8f3%3A0x8a035bfb311bd47f!2s73%20Richmond%20St%20E%20%236%2C%20Toronto%2C%20ON%20M5C%203A6%2C%20Canada!5e1!3m2!1sen!2sus!4v1774883690463!5m2!1sen!2sus"
               width="100%"
               height="100%"
-              style={{ border: 0, minHeight: '500px' }}
+              style={{ border: '10px', minHeight: '250px' }}
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

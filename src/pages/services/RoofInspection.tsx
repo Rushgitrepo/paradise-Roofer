@@ -31,7 +31,7 @@ export default function RoofInspection() {
                         <div className="grid md:grid-cols-2 gap-8 items-start">
                             <div className="space-y-4">
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Worried about your roof but hate the ladder risk? We fly a professional drone over your house for a complete roof check that finds leaks, bad shingles, and ice dam trouble before they cost you thousands.
+                                    Worried about your roof but hate the ladder risk? We fly a professional drone over your house for a complete roof check that finds leaks, bad shingles and ice dam trouble before they cost you thousands.
                                 </p>
                                 <p className="text-lg text-muted-foreground leading-relaxed">
                                     $200 service is 100% FREE. No obligation. No hard sell. We do this across Toronto, Mississauga Brampton, Milton, Oakville and everywhere in the GTA. It takes 15 minutes and you get a digital report the same day with pictures showing exactly what we found.
@@ -86,7 +86,7 @@ export default function RoofInspection() {
                     <div className="mt-12 max-w-4xl">
                         <h3 className="text-2xl font-bold mb-4">Why Drone Checks Beat Climbing Ladders Every Time</h3>
                         <p className="text-lg text-muted-foreground mb-4">
-                            I've climbed more roofs than I can count, and ladders miss most problems. You can't safely walk steep pitches or see behind vents. No good photos means no proof for repairs. Plus Toronto rain cancels half the inspections anyway.
+                            I've climbed more roofs than I can count and ladders miss most problems. You can't safely walk steep pitches or see behind vents. No good photos means no proof for repairs. Plus Toronto rain cancels half the inspections anyway.
                         </p>
                         <p className="text-lg text-muted-foreground">
                             Drones fix all that. We get crystal clear 4K pictures of every shingle and flashing. The heat camera finds wet spots under shingles 2 years before your ceiling stains. 36x zoom lets us check ridge caps from 50 feet away – completely safe. Small fixes now save big money later. That's why we do this free.

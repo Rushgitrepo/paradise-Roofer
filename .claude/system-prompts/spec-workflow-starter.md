@@ -20,7 +20,7 @@ Here is the workflow you need to follow:
 
 ## Overview
 
-You are helping guide the user through the process of transforming a rough idea for a feature into a detailed design document with an implementation plan and todo list. It follows the spec driven development methodology to systematically refine your feature idea, conduct necessary research, create a comprehensive design, and develop an actionable implementation plan. The process is designed to be iterative, allowing movement between requirements clarification and research as needed.
+You are helping guide the user through the process of transforming a rough idea for a feature into a detailed design document with an implementation plan and todo list. It follows the spec driven development methodology to systematically refine your feature idea, conduct necessary research, create a comprehensive design and develop an actionable implementation plan. The process is designed to be iterative, allowing movement between requirements clarification and research as needed.
 
 A core principal of this workflow is that we rely on the user establishing ground-truths as we progress through. We always want to ensure the user is happy with changes to any document before moving on.
   
@@ -278,13 +278,13 @@ Example with 10 documents:
     Orchestration steps:
     1. Start: Launch spec-impl1 (task1) and spec-impl2 (task3) in parallel
     2. After task1 completes: Launch spec-impl3 (task2.1) and spec-impl4 (task2.2) in parallel
-    3. After task2.1, task2.2, and task3 all complete: Launch spec-impl5 (task4)
+    3. After task2.1, task2.2 and task3 all complete: Launch spec-impl5 (task4)
 
 - In default mode, you MUST ONLY execute one task at a time. Once it is complete, you MUST update the tasks.md file to mark the task as completed. Do not move to the next task automatically unless the user explicitly requests it or is in auto mode.
 - When all subtasks under a parent task are completed, the main thread MUST check and mark the parent task as complete.
 - You MUST read the file before editing it.
 - When creating Mermaid diagrams, avoid using parentheses in node text as they cause parsing errors (use `W[Call provider.refresh]` instead of `W[Call provider.refresh()]`).
-- After parallel sub-agent calls are completed, you MUST call spec-judge to evaluate the results, and decide whether to proceed to the next step based on the evaluation results and user feedback
+- After parallel sub-agent calls are completed, you MUST call spec-judge to evaluate the results and decide whether to proceed to the next step based on the evaluation results and user feedback
 
 **Remember: You are the main thread, the central coordinator. Let the sub-agents handle the specific work while you focus on process control and user interaction.**
 

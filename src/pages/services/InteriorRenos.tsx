@@ -2,11 +2,13 @@ import Layout from "@/components/layout/Layout";
 import ContactForm from "@/components/sections/ContactForm";
 import { Phone, ArrowRight, Shield, MapPin, PaintBucket, CheckCircle2, Home, Layers, Eye } from "lucide-react";
 import { Link } from "react-router-dom";
-import interiorRenovation from "@/assets/Home_page/CompleteInteriorRenovationsinTorontoGTA.webp";
+import interiorRenovation from "@/assets/Home_page/CompleteInteriorRenovationsinTorontoGTA.jpg";
+import PageSEO from "@/components/seo/PageSEO";
 
 export default function InteriorRenos() {
     return (
         <Layout>
+            <PageSEO slug="interior-renos" />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

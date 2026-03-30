@@ -28,7 +28,7 @@ export default function BramptonRoofing() {
                         <div className="grid md:grid-cols-2 gap-8 items-start">
                             <div className="space-y-4">
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Paradise Roofers proudly offers reliable roofing and renovation services in Brampton, Ontario, delivering high-quality workmanship for residential and commercial properties. With years of hands-on experience, our team is committed to protecting, improving, and enhancing your property from the roof down.
+                                    Paradise Roofers proudly offers reliable roofing and renovation services in Brampton, Ontario, delivering high-quality workmanship for residential and commercial properties. With years of hands-on experience, our team is committed to protecting, improving and enhancing your property from the roof down.
                                 </p>
                             </div>
 
@@ -102,7 +102,7 @@ export default function BramptonRoofing() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Roof inspections & maintenance Services in Brampton</h3>
                                     <p className="text-muted-foreground">
-                                        We offer free drone roof inspections to safely assess your roof's condition, identify damage, and spot potential issues early—no ladders, no disruption. Our Brampton maintenance services help extend the life of your roof and prevent costly repairs.
+                                        We offer free drone roof inspections to safely assess your roof's condition, identify damage and spot potential issues early—no ladders, no disruption. Our Brampton maintenance services help extend the life of your roof and prevent costly repairs.
                                     </p>
                                 </div>
                             </div>
@@ -147,7 +147,7 @@ export default function BramptonRoofing() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Asphalt shingle roofing services in Brampton</h3>
                                     <p className="text-muted-foreground">
-                                        Expert asphalt shingle roofing services in Brampton, Ontario, providing reliable protection, affordability, and long-term performance.
+                                        Expert asphalt shingle roofing services in Brampton, Ontario, providing reliable protection, affordability and long-term performance.
                                     </p>
                                 </div>
                             </div>
@@ -162,7 +162,7 @@ export default function BramptonRoofing() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Emergency Roof Repairs in Brampton</h3>
                                     <p className="text-muted-foreground">
-                                        24/7 emergency roof repair services in Brampton, offering fast, reliable response to storm damage, leaks, and urgent roofing problems to protect your home.
+                                        24/7 emergency roof repair services in Brampton, offering fast, reliable response to storm damage, leaks and urgent roofing problems to protect your home.
                                     </p>
                                 </div>
                             </div>
@@ -177,7 +177,7 @@ export default function BramptonRoofing() {
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold uppercase mb-2">Eaves trough, Soffit & Fascia Services in Brampton</h3>
                                     <p className="text-muted-foreground">
-                                        Professional eaves trough, soffit, and fascia services in Brampton, Ontario, protecting your home from water damage while enhancing its exterior appearance and durability.
+                                        Professional eaves trough, soffit and fascia services in Brampton, Ontario, protecting your home from water damage while enhancing its exterior appearance and durability.
                                     </p>
                                 </div>
                             </div>

@@ -66,7 +66,7 @@ export default function About() {
                 Matters Most
               </h2>
               <p className="text-muted-foreground mb-6">
-                We believe a roof isn't just shingles and nails — it's the shelter that protects your family, your memories, and your peace of mind. That's why we approach every job with the care we'd give our own homes.
+                We believe a roof isn't just shingles and nails — it's the shelter that protects your family, your memories and your peace of mind. That's why we approach every job with the care we'd give our own homes.
               </p>
               <blockquote className="border-l-4 border-primary pl-6 italic">
                 "When you trust us with your roof, you trust us with your home."

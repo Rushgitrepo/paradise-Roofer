@@ -14,7 +14,7 @@ const testimonials = [
     role: "Homeowner, Brampton, ON",
   },
   {
-    quote: "Expected mess and delays for Shingle roof replacement. Got clean work, friendly Canadian crew, and my yard looking better. Roofing made it easy!",
+    quote: "Expected mess and delays for Shingle roof replacement. Got clean work, friendly Canadian crew and my yard looking better. Roofing made it easy!",
     author: "",
     role: "Homeowner, Mississauga, ON",
   },
@@ -24,7 +24,7 @@ const testimonials = [
     role: "Homeowner, Milton, ON",
   },
   {
-    quote: "Called three roofers—one ghosted, one overpriced. Paradise Roofers experts did the Shingle roof install fast, fair, and flawlessly.",
+    quote: "Called three roofers—one ghosted, one overpriced. Paradise Roofers experts did the Shingle roof install fast, fair and flawlessly.",
     author: "",
     role: "Business Owner, Scarborough ON",
   },
@@ -70,7 +70,7 @@ export default function ReviewsPreview() {
                 "{testimonial.quote}"
               </p>
               <div className="flex items-center gap-3">
-                <div 
+                <div
                   className="w-10 h-10 rounded-full flex items-center justify-center"
                   style={{ backgroundColor: 'rgb(20, 20, 20)' }}
                 >
@@ -93,7 +93,7 @@ export default function ReviewsPreview() {
       {/* View All Button */}
       <div className="flex justify-center mt-10">
         <Link to="/reviews">
-          <button 
+          <button
             className="inline-flex items-center gap-2 px-6 py-4 rounded-full font-semibold uppercase text-sm tracking-wide transition-all hover:opacity-90 group"
             style={{ backgroundColor: 'rgb(20, 20, 20)', color: 'rgb(255, 255, 255)' }}
           >

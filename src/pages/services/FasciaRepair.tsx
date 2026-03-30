@@ -28,7 +28,7 @@ export default function FasciaRepair() {
                         <div className="grid md:grid-cols-2 gap-8 items-start">
                             <div className="space-y-4">
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Rotten fascia boards causing gutter problems? We specialize in fascia repair and complete replacement for Toronto homes where wood rot has compromised roof edges, gutters, and exterior appearance. Licensed Paradise Roofers fix sagging gutters, leaking fascia joints, and deteriorated boards across Toronto, Mississauga, Brampton, Milton, Oakville and entire GTA.
+                                    Rotten fascia boards causing gutter problems? We specialize in fascia repair and complete replacement for Toronto homes where wood rot has compromised roof edges, gutters and exterior appearance. Licensed Paradise Roofers fix sagging gutters, leaking fascia joints and deteriorated boards across Toronto, Mississauga, Brampton, Milton, Oakville and entire GTA.
                                 </p>
                                 <p className="text-lg text-muted-foreground leading-relaxed">
                                     Free drone inspection reveals hidden rot before it spreads. Same-day repairs for minor damage. Full replacement packages include soffit ventilation + seamless gutters. 20-year warranty on aluminum/PVC fascia systems.

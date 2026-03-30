@@ -38,7 +38,7 @@ export default function RoofInstallation() {
                                     Looking for expert roof installation in Toronto and the GTA? We specialize in complete new roof installations for residential homes and commercial properties across Mississauga, Brampton, Milton, Oakville and the entire GTA, Toronto.
                                 </p>
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Our licensed roofing contractors handle everything from asphalt shingles to premium metal roofing systems, all built to withstand harsh Canadian winters, ice dams, heavy snow loads, and summer storms.
+                                    Our licensed roofing contractors handle everything from asphalt shingles to premium metal roofing systems, all built to withstand harsh Canadian winters, ice dams, heavy snow loads and summer storms.
                                 </p>
                             </div>
 
@@ -86,7 +86,7 @@ export default function RoofInstallation() {
                     {/* Intro Extension */}
                     <div className="mt-12 max-w-4xl">
                         <p className="text-lg text-muted-foreground">
-                            With a legacy of diverse projects serving Toronto homeowners and businesses, we offer FREE roof drone inspections, transparent pricing, 1–3-day installations, and lifetime warranties on materials. Whether you need shingle roof installation, metal roofing for snow country, or flat roof systems for commercial buildings, our process guarantees zero mess, maximum durability, and energy savings through proper attic ventilation and insulation.
+                            With a legacy of diverse projects serving Toronto homeowners and businesses, we offer FREE roof drone inspections, transparent pricing, 1–3-day installations and lifetime warranties on materials. Whether you need shingle roof installation, metal roofing for snow country, or flat roof systems for commercial buildings, our process guarantees zero mess, maximum durability and energy savings through proper attic ventilation and insulation.
                         </p>
                     </div>
                 </div>
@@ -111,12 +111,12 @@ export default function RoofInstallation() {
 
                             <ul className="grid md:grid-cols-2 gap-y-6 gap-x-8 pl-[88px]">
                                 {[
-                                    { title: "Free Roof Drone Inspection", desc: "Advanced drone technology reveals shingle wear, ice dam risks, and hidden damage invisible from ground level" },
-                                    { title: "Complete Roof Replacement Packages", desc: "Old roof removal, new installation, fascia repair, soffit upgrades, and seamless gutters included." },
+                                    { title: "Free Roof Drone Inspection", desc: "Advanced drone technology reveals shingle wear, ice dam risks and hidden damage invisible from ground level" },
+                                    { title: "Complete Roof Replacement Packages", desc: "Old roof removal, new installation, fascia repair, soffit upgrades and seamless gutters included." },
                                     { title: "Professional Installation Team", desc: "Top listed roofers of GTA with specialized training in ice & water shield applications" },
                                     { title: "10-Year Workmanship Warranty", desc: "Plus, manufacturer lifetime warranties on premium shingles" },
                                     { title: "Licensed & Insured Toronto Roofers", desc: "Fully compliant with Toronto Building Code and Ontario regulations" },
-                                    { title: "Zero Mess Guarantee", desc: "Magnetic booties, dumpster service, and final yard clean up after every job" }
+                                    { title: "Zero Mess Guarantee", desc: "Magnetic booties, dumpster service and final yard clean up after every job" }
                                 ].map((item, i) => (
                                     <li key={i} className="flex items-start gap-3">
                                         <div className="mt-1">
@@ -145,7 +145,7 @@ export default function RoofInstallation() {
 
                             <div className="pl-[88px]">
                                 <p className="text-lg text-muted-foreground">
-                                    Our roofs feature proper ice barriers, snow-shedding designs, and wind-resistant fastening systems built specifically for the GTA climate.
+                                    Our roofs feature proper ice barriers, snow-shedding designs and wind-resistant fastening systems built specifically for the GTA climate.
                                 </p>
                             </div>
                         </div>
@@ -162,7 +162,7 @@ export default function RoofInstallation() {
                         {[
                             {
                                 title: "1. Free Roof Drone Inspection",
-                                desc: "Every project starts with our complimentary drone inspection service. We capture 4K aerial footage of your entire roof surface, chimney flashing, skylights, vents, and valleys. This technology spots issues like cracked shingles, granule loss, soft spots, and ice dam formation risks before we even climb ladders. You'll receive a detailed digital report with photos, repair recommendations, and accurate square footage measurements for precise quoting."
+                                desc: "Every project starts with our complimentary drone inspection service. We capture 4K aerial footage of your entire roof surface, chimney flashing, skylights, vents and valleys. This technology spots issues like cracked shingles, granule loss, soft spots and ice dam formation risks before we even climb ladders. You'll receive a detailed digital report with photos, repair recommendations and accurate square footage measurements for precise quoting."
                             },
                             {
                                 title: "2. Roof Repair Before Replacement",
@@ -170,7 +170,7 @@ export default function RoofInstallation() {
                             },
                             {
                                 title: "3. Complete Roof Replacement",
-                                desc: "For roofs over 15 years old or showing multiple failure signs (curling shingles, valley cracks, interior leaks), full replacement delivers best value. We handle complete tear-off to the deck, ice & water shield installation, synthetic underlayment, and premium shingle application with proper nailing patterns for 160 km/h wind resistance."
+                                desc: "For roofs over 15 years old or showing multiple failure signs (curling shingles, valley cracks, interior leaks), full replacement delivers best value. We handle complete tear-off to the deck, ice & water shield installation, synthetic underlayment and premium shingle application with proper nailing patterns for 160 km/h wind resistance."
                             },
                             {
                                 title: "4. Fascia Repair & Replacement",
@@ -190,7 +190,7 @@ export default function RoofInstallation() {
                             },
                             {
                                 title: "8. All Interior Renovations",
-                                desc: "Roof leaks damages, ceilings, walls, and insulation. Our team handles complete interior restoration including drywall replacement, tape and mud, premium painting, and vapor barrier repairs so your home looks better than before the leak."
+                                desc: "Roof leaks damages, ceilings, walls and insulation. Our team handles complete interior restoration including drywall replacement, tape and mud, premium painting and vapor barrier repairs so your home looks better than before the leak."
                             }
                         ].map((service, i) => (
                             <div key={i} className="bg-muted/30 p-6 rounded-lg border border-border hover:border-[#FF9C45] transition-colors">
@@ -263,7 +263,7 @@ export default function RoofInstallation() {
                                 step: "01",
                                 title: "FREE Drone Inspection & Assessment",
                                 time: "(Day 1)",
-                                desc: "A licensed technician arrives with a drone, moisture meter, and thermal camera. We document: Shingle condition and granule loss patterns, Ice dam risk areas and attic ventilation issues, Chimney flashing, step flashing, and valley integrity, Interior ceiling stains indicating leak locations. You'll receive a PDF report with photos, square footage calculations, and repair vs. replacement recommendations within 24 hours."
+                                desc: "A licensed technician arrives with a drone, moisture meter and thermal camera. We document: Shingle condition and granule loss patterns, Ice dam risk areas and attic ventilation issues, Chimney flashing, step flashing and valley integrity, Interior ceiling stains indicating leak locations. You'll receive a PDF report with photos, square footage calculations and repair vs. replacement recommendations within 24 hours."
                             },
                             {
                                 step: "02",
@@ -281,7 +281,7 @@ export default function RoofInstallation() {
                                 step: "04",
                                 title: "Final Walkthrough & Warranty Activation",
                                 time: "",
-                                desc: "Joint inspection confirming: No popped nails or loose shingles, Perfect ridge cap and flashing alignment, Gutter flow test and fascia alignment, Attic ventilation verification. Warranty package includes manufacturer lifetime limited warranty, our 20-year workmanship warranty, and seasonal maintenance checklist."
+                                desc: "Joint inspection confirming: No popped nails or loose shingles, Perfect ridge cap and flashing alignment, Gutter flow test and fascia alignment, Attic ventilation verification. Warranty package includes manufacturer lifetime limited warranty, our 20-year workmanship warranty and seasonal maintenance checklist."
                             }
                         ].map((item, i) => (
                             <div key={i} className="flex gap-6">

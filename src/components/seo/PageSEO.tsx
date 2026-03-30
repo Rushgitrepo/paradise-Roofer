@@ -22,8 +22,8 @@ const PageSEO = ({ slug }: { slug: string }) => {
         // Add trailing slash handling if needed, though redirect handler will generally handle it
     }, [location.pathname]);
 
-    if (isLoading) return <Helmet><title>Loading...</title></Helmet>;
-    if (isError || !page) return <Helmet><title>Page Not Found - {SITE_NAME}</title></Helmet>;
+    if (isLoading) return <Helmet><title>Paradise Roofers | Contact Us </title></Helmet>;
+    if (isError || !page) return <Helmet><title>Paradise Roofers | Contact Us </title></Helmet>;
 
     const yoast = page.yoast_head_json;
 

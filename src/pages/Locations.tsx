@@ -46,7 +46,7 @@ export default function Locations() {
                                     Serving the Greater Toronto Area with professional roofing services. From downtown Toronto to surrounding municipalities, we bring quality workmanship to your neighborhood.
                                 </p>
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Licensed, insured, and locally trusted since 2008. Click on your city below to learn more about our services in your area.
+                                    Licensed, insured and locally trusted since 2008. Click on your city below to learn more about our services in your area.
                                 </p>
                             </div>
 
@@ -200,13 +200,13 @@ export default function Locations() {
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {[
                             { title: "Roof Installation", desc: "New construction and replacement installations with premium materials and expert craftsmanship." },
-                            { title: "Roof Repair", desc: "Storm damage, leak repairs, and maintenance to extend your roof's lifespan." },
+                            { title: "Roof Repair", desc: "Storm damage, leak repairs and maintenance to extend your roof's lifespan." },
                             { title: "Roof Replacement", desc: "Complete tear-off and replacement when repairs aren't enough." },
                             { title: "Emergency Services", desc: "24/7 emergency repairs for storm damage and urgent leaks." },
-                            { title: "Roof Inspection", desc: "Comprehensive inspections for insurance, real estate, and maintenance." },
-                            { title: "Gutters & Downspouts", desc: "Installation, repair, and cleaning of eavestrough systems." },
+                            { title: "Roof Inspection", desc: "Comprehensive inspections for insurance, real estate and maintenance." },
+                            { title: "Gutters & Downspouts", desc: "Installation, repair and cleaning of eavestrough systems." },
                             { title: "Attic Insulation", desc: "Energy-efficient insulation upgrades to R50 standards." },
-                            { title: "Commercial Roofing", desc: "Flat roof systems, TPO, EPDM, and modified bitumen for businesses." }
+                            { title: "Commercial Roofing", desc: "Flat roof systems, TPO, EPDM and modified bitumen for businesses." }
                         ].map((service, i) => (
                             <div key={i} className="bg-white p-6 rounded-lg border border-border hover:border-[#FF9C45] transition-colors">
                                 <CheckCircle2 className="h-8 w-8 text-[#FF9C45] mb-3" />

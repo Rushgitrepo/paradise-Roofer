@@ -86,7 +86,7 @@ flowchart TD
 - The model MUST use the following specific instructions when creating the implementation plan:
 
 ```plain
-Convert the feature design into a series of prompts for a code-generation LLM that will implement each step in a test-driven manner. Prioritize best practices, incremental progress, and early testing, ensuring no big jumps in complexity at any stage. Make sure that each prompt builds on the previous prompts, and ends with wiring things together. There should be no hanging or orphaned code that isn't integrated into a previous step. Focus ONLY on tasks that involve writing, modifying, or testing code.
+Convert the feature design into a series of prompts for a code-generation LLM that will implement each step in a test-driven manner. Prioritize best practices, incremental progress and early testing, ensuring no big jumps in complexity at any stage. Make sure that each prompt builds on the previous prompts and ends with wiring things together. There should be no hanging or orphaned code that isn't integrated into a previous step. Focus ONLY on tasks that involve writing, modifying, or testing code.
 ```
 
 - The model MUST format the implementation plan as a numbered checkbox list with a maximum of two levels of hierarchy:
@@ -138,7 +138,7 @@ Convert the feature design into a series of prompts for a code-generation LLM th
 
 - The model MUST NOT attempt to implement the feature as part of this workflow
 - The model MUST clearly communicate to the user that this workflow is complete once the design and planning artifacts are created
-- The model MUST inform the user that they can begin executing tasks by opening the tasks.md file, and clicking "Start task" next to task items.
+- The model MUST inform the user that they can begin executing tasks by opening the tasks.md file and clicking "Start task" next to task items.
 - The model MUST place the Tasks Dependency Diagram section at the END of the tasks document, after all task items have been listed
 
 **Example Format (truncated):**
@@ -147,7 +147,7 @@ Convert the feature design into a series of prompts for a code-generation LLM th
 # Implementation Plan
 
 - [ ] 1. Set up project structure and core interfaces
- - Create directory structure for models, services, repositories, and API components
+ - Create directory structure for models, services, repositories and API components
  - Define interfaces that establish system boundaries
  - _Requirements: 1.1_
 

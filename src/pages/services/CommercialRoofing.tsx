@@ -33,7 +33,7 @@ export default function CommercialRoofing() {
                                     Your business operations depend on a dry interior. Don't let a leaking flat roof disrupt production or damage inventory.
                                 </p>
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    We specialize in TPO, EPDM, and Modified Bitumen roofing for plazas, warehouses, and multi-unit buildings across the GTA. Durable, code-compliant, and installed with minimal downtime.
+                                    We specialize in TPO, EPDM and Modified Bitumen roofing for plazas, warehouses and multi-unit buildings across the GTA. Durable, code-compliant and installed with minimal downtime.
                                 </p>
                             </div>
 
@@ -81,7 +81,7 @@ export default function CommercialRoofing() {
                     {/* Intro Extension */}
                     <div className="mt-12 max-w-4xl">
                         <p className="text-lg text-muted-foreground">
-                            Flat roofs present unique challenges: water pooling, HVAC penetrations, and massive thermal expansion/contraction. Generic residential roofers often lack the specialized welding equipment and knowledge for these systems. Our commercial division is fully equipped to handle large-scale TPO membrane installations, 2-ply torch-down systems, and complex custom metal flashing for parapet walls.
+                            Flat roofs present unique challenges: water pooling, HVAC penetrations and massive thermal expansion/contraction. Generic residential roofers often lack the specialized welding equipment and knowledge for these systems. Our commercial division is fully equipped to handle large-scale TPO membrane installations, 2-ply torch-down systems and complex custom metal flashing for parapet walls.
                         </p>
                     </div>
                 </div>
@@ -177,7 +177,7 @@ export default function CommercialRoofing() {
                                 step: "01",
                                 title: "Site Assessment & Core Cut",
                                 time: "Day 1",
-                                desc: "We inspect drainage, deck condition, and take core samples to check for wet insulation."
+                                desc: "We inspect drainage, deck condition and take core samples to check for wet insulation."
                             },
                             {
                                 step: "02",
@@ -255,8 +255,8 @@ export default function CommercialRoofing() {
                     <h2 className="text-2xl md:text-3xl font-bold uppercase mb-8">Commercial FAQs</h2>
                     <div className="grid md:grid-cols-2 gap-6">
                         {[
-                            { q: "Do you work on high-rises?", a: "We primarily service low-rise to mid-rise commercial buildings, warehouses, and strip malls up to 5 stories." },
-                            { q: "Is TPO better than Tar & Gravel?", a: "Yes. TPO is seamless (welded), reflects heat (lowering AC costs), and is much lighter, reducing structural load." },
+                            { q: "Do you work on high-rises?", a: "We primarily service low-rise to mid-rise commercial buildings, warehouses and strip malls up to 5 stories." },
+                            { q: "Is TPO better than Tar & Gravel?", a: "Yes. TPO is seamless (welded), reflects heat (lowering AC costs) and is much lighter, reducing structural load." },
                             { q: "Can you fix leaks without full replacement?", a: "Often yes. We use infrared cameras to find the wet insulation boundary and only replace the damaged section." },
                             { q: "What is your warranty?", a: "10-Year Workmanship on all new installs + Manufacturer Material Warranties up to 20 or 25 years." },
                         ].map((faq, i) => (

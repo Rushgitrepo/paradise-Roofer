@@ -28,10 +28,10 @@ export default function SoffitRepair() {
                         <div className="grid md:grid-cols-2 gap-8 items-start">
                             <div className="space-y-4">
                                 <p className="text-lg text-muted-foreground leading-relaxed">
-                                    Soffit problems causing ice dams and poor attic ventilation? We provide professional soffit repair and complete replacement for Toronto homes where clogged vents, rotten wood, and failing soffits create moisture buildup, ice dams, and skyrocketing hydro bills. Licensed Paradise Roofers serve Toronto, Mississauga, Brampton, Milton, Oakville and entire GTA region with continuous ventilation soffits, proper fascia integration, and complete exterior packages.
+                                    Soffit problems causing ice dams and poor attic ventilation? We provide professional soffit repair and complete replacement for Toronto homes where clogged vents, rotten wood and failing soffits create moisture buildup, ice dams and skyrocketing hydro bills. Licensed Paradise Roofers serve Toronto, Mississauga, Brampton, Milton, Oakville and entire GTA region with continuous ventilation soffits, proper fascia integration and complete exterior packages.
                                 </p>
                                 <p className="text-lg font-bold text-[#FF9C45]">
-                                    Every soffit job starts with FREE drone inspection $200 revealing hidden rot, ventilation blockages, and moisture patterns before work begins. Fast 1-2 day installations, 25-year warranties, zero mess guarantee across entire GTA region.
+                                    Every soffit job starts with FREE drone inspection $200 revealing hidden rot, ventilation blockages and moisture patterns before work begins. Fast 1-2 day installations, 25-year warranties, zero mess guarantee across entire GTA region.
                                 </p>
                             </div>
 

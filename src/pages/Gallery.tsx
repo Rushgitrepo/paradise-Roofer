@@ -23,6 +23,8 @@ const galleryImages = [
   { src: project1, category: "Asphalt Shingle", title: "Aerial View" },
 ];
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function Gallery() {
   const [activeCategory, setActiveCategory] = useState("All");
 
@@ -33,6 +35,11 @@ export default function Gallery() {
 
   return (
     <Layout>
+      <PageSEO 
+        title="Roofing Projects Gallery | See Our Work"
+        description="Browse our roofing gallery to see completed residential and commercial projects across Toronto and the GTA. View asphalt shingle, metal, and slate roofs."
+        canonicalUrl="https://paradiseroofers.com/gallery/"
+      />
       {/* Hero */}
       <section className="bg-muted py-20">
         <div className="container">

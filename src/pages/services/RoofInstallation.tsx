@@ -13,7 +13,11 @@ import PageSEO from "@/components/seo/PageSEO";
 export default function RoofInstallation() {
     return (
         <Layout>
-            <PageSEO slug="installation" />
+            <PageSEO 
+                title="Roof Installation Services in Toronto & GTA"
+                description="Professional Roof Installation services by Paradise Roofers in Toronto. Expert solutions, reliable contractors, and free drone inspections."
+                canonicalUrl="https://paradiseroofers.com/services/roof-installation/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

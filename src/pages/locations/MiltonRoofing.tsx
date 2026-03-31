@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Home, Shield, Wrench, AlertTriangle, Eye, Hammer } f
 import { Link } from "react-router-dom";
 import miltonImage from "@/assets/locations/Milton.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function MiltonRoofing() {
     return (
         <Layout>
+            <PageSEO 
+                title="Expert Roofing Contractors in Milton | Paradise Roofers"
+                description="Paradise Roofers provides premium roofing installations, repairs, and inspections for residential and commercial properties in Milton."
+                canonicalUrl="https://paradiseroofers.com/locations/milton/roofing/"
+            />
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">
                     <div className="flex flex-col gap-8">

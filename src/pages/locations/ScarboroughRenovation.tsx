@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Hammer, Paintbrush, Wind, Home, Shield, Layers, Buil
 import { Link } from "react-router-dom";
 import scarboroughImage from "@/assets/locations/Scarborough.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function ScarboroughRenovation() {
     return (
         <Layout>
+            <PageSEO 
+                title="Complete Home Renovation Services in Scarborough | Paradise Roofers"
+                description="Top-rated interior and exterior renovation contractors in Scarborough. Let Paradise Roofers upgrade your kitchen, bathroom, basement, and more."
+                canonicalUrl="https://paradiseroofers.com/locations/scarborough/renovation/"
+            />
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">
                     <div className="flex flex-col gap-8">

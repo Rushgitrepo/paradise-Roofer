@@ -11,9 +11,16 @@ const team = [
   { name: "Carlos R.", role: "Drone Tech", description: "Certified pilot finds leaks others miss. Mississauga dad of 4.", image: teamPhoto },
 ];
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function About() {
   return (
     <Layout>
+      <PageSEO 
+        title="About Our Expert Toronto Roofing Team"
+        description="Learn about Paradise Roofers, Toronto's trusted roofing contractors. With over 2,000+ roofs installed, we deliver reliable and expert roofing solutions."
+        canonicalUrl="https://paradiseroofers.com/about/"
+      />
       {/* Hero */}
       <section className="relative bg-foreground text-background py-32">
         <div className="absolute inset-0">

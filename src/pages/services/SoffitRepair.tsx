@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Shield, Award, MapPin, Wind, Thermometer, Constructi
 import { Link } from "react-router-dom";
 import soffitRepair from "@/assets/Home_page/Soffit_Repair_New.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function SoffitRepair() {
     return (
         <Layout>
+            <PageSEO 
+                title="Soffit Repair & Replacement Services in Toronto"
+                description="Fix poor attic ventilation and wood rot with expert soffit repair and replacement services in Toronto and the GTA. Call for a free drone inspection."
+                canonicalUrl="https://paradiseroofers.com/services/soffit/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

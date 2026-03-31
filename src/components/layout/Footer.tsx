@@ -203,9 +203,9 @@ export default function Footer() {
 
         {/* Giant Brand Name Watermark */}
         <div className="overflow-hidden py-4 flex justify-center">
-          <h1 className="text-[12vw] font-black text-background/10 whitespace-nowrap select-none">
+          <h2 className="text-[12vw] font-black text-background/10 whitespace-nowrap select-none">
             PARADISE ROOFERS
-          </h1>
+          </h2>
         </div>
 
         {/* Bottom Bar */}

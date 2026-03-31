@@ -33,9 +33,16 @@ const projects = [
   },
 ];
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function Projects() {
   return (
     <Layout>
+      <PageSEO 
+        title="Our Recent Roofing Projects & Case Studies"
+        description="View our portfolio of successful roofing projects across Toronto. See before and after transformations, roof repairs, and complete roof replacements."
+        canonicalUrl="https://paradiseroofers.com/projects/"
+      />
       {/* Hero */}
       <section className="bg-muted py-20">
         <div className="container">

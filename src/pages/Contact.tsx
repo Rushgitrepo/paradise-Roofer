@@ -30,9 +30,16 @@ const socialLinks = [
   { name: "TikTok", href: "https://www.tiktok.com/@paradiseroofers" },
 ];
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function Contact() {
   return (
     <Layout>
+      <PageSEO 
+        title="Contact Us for 24/7 Roofing Services in Toronto"
+        description="Need urgent roof repairs or a free drone inspection in the GTA? Contact Paradise Roofers today. Call our 24/7 hotline at 437-564-2790 for rapid response."
+        canonicalUrl="https://paradiseroofers.com/contact/"
+      />
       {/* Hero */}
       <section className="bg-muted py-24 relative overflow-hidden">
         <div className="container relative z-10">

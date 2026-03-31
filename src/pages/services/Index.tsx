@@ -145,7 +145,11 @@ import PageSEO from "@/components/seo/PageSEO";
 export default function Services() {
   return (
     <Layout>
-      <PageSEO slug="services" />
+      <PageSEO 
+                title="Index Services in Toronto & GTA"
+                description="Professional Index services by Paradise Roofers in Toronto. Expert solutions, reliable contractors, and free drone inspections."
+                canonicalUrl="https://paradiseroofers.com/services/index/"
+            />
       {/* Hero */}
       <section className="bg-background pt-20 pb-10">
         <div className="container">

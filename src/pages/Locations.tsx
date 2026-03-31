@@ -19,9 +19,16 @@ const locations = [
     { name: "Ajax", href: "/locations/ajax", description: "Expert roofing services for Ajax's lakefront and suburban areas" },
 ];
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function Locations() {
     return (
         <Layout>
+            <PageSEO 
+                title="Service Areas | Top Roofers in Toronto & GTA"
+                description="Paradise Roofers serves Toronto, Mississauga, Brampton, Vaughan, Markham, and the entire GTA. Get fast, reliable, and professional local roofing services."
+                canonicalUrl="https://paradiseroofers.com/locations/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

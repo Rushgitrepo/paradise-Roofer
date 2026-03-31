@@ -6,9 +6,16 @@ import roofCoating from "@/assets/roof-coating.jpg";
 import commercialRoof from "@/assets/roof-inspection.jpg"; // Placeholder or different image
 import completedRoof from "@/assets/completed-roof.jpg";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function RoofCoating() {
     return (
         <Layout>
+            <PageSEO 
+                title="Roof Coating Services in Toronto & GTA"
+                description="Professional Roof Coating services by Paradise Roofers in Toronto. Expert solutions, reliable contractors, and free drone inspections."
+                canonicalUrl="https://paradiseroofers.com/services/roof-coating/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

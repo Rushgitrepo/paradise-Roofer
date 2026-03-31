@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Home, Hammer } from "lucide-react";
 import { Link } from "react-router-dom";
 import AuroraImage from "@/assets/locations/Aurora.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function AuroraSimple() {
     return (
         <Layout>
+            <PageSEO 
+                title="Best Roofing & Renovation Services in Aurora | Paradise Roofers"
+                description="Your trusted local experts in Aurora for reliable roof repairs, complete replacements, and home renovations. Get a free estimate today!"
+                canonicalUrl="https://paradiseroofers.com/locations/aurora/"
+            />
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">
                     <div className="flex flex-col gap-8">

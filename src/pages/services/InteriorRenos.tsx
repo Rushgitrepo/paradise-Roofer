@@ -8,7 +8,11 @@ import PageSEO from "@/components/seo/PageSEO";
 export default function InteriorRenos() {
     return (
         <Layout>
-            <PageSEO slug="interior-renos" />
+            <PageSEO 
+                title="Interior Renos Services in Toronto & GTA"
+                description="Professional Interior Renos services by Paradise Roofers in Toronto. Expert solutions, reliable contractors, and free drone inspections."
+                canonicalUrl="https://paradiseroofers.com/services/interior-renos/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

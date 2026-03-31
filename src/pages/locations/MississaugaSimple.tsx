@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Home, Hammer } from "lucide-react";
 import { Link } from "react-router-dom";
 import mississaugaImage from "@/assets/locations/Mississauga.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function MississaugaSimple() {
     return (
         <Layout>
+            <PageSEO 
+                title="Best Roofing & Renovation Services in Mississauga | Paradise Roofers"
+                description="Your trusted local experts in Mississauga for reliable roof repairs, complete replacements, and home renovations. Get a free estimate today!"
+                canonicalUrl="https://paradiseroofers.com/locations/mississauga/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

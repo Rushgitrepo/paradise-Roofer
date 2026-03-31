@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Home, Hammer } from "lucide-react";
 import { Link } from "react-router-dom";
 import vaughanImage from "@/assets/locations/Vaughan.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function VaughanSimple() {
     return (
         <Layout>
+            <PageSEO 
+                title="Best Roofing & Renovation Services in Vaughan | Paradise Roofers"
+                description="Your trusted local experts in Vaughan for reliable roof repairs, complete replacements, and home renovations. Get a free estimate today!"
+                canonicalUrl="https://paradiseroofers.com/locations/vaughan/"
+            />
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">
                     <div className="flex flex-col gap-8">

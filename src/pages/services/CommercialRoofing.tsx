@@ -6,9 +6,16 @@ import commercialRoofing from "@/assets/Home_page/CommercialServicesCommercialFl
 import metalRoof from "@/assets/metal-roof.jpg";
 import roofingBanner from "@/assets/roofers-banner.jpg";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function CommercialRoofing() {
     return (
         <Layout>
+            <PageSEO 
+                title="Commercial Roofing Services in Toronto & GTA"
+                description="Professional Commercial Roofing services by Paradise Roofers in Toronto. Expert solutions, reliable contractors, and free drone inspections."
+                canonicalUrl="https://paradiseroofers.com/services/commercial-roofing/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

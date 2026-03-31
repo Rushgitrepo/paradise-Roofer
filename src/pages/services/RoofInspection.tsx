@@ -9,7 +9,11 @@ import PageSEO from "@/components/seo/PageSEO";
 export default function RoofInspection() {
     return (
         <Layout>
-            <PageSEO slug="inspection" />
+            <PageSEO 
+                title="Roof Inspection Services in Toronto & GTA"
+                description="Professional Roof Inspection services by Paradise Roofers in Toronto. Expert solutions, reliable contractors, and free drone inspections."
+                canonicalUrl="https://paradiseroofers.com/services/roof-inspection/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

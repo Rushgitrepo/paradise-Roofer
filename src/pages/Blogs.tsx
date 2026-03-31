@@ -77,6 +77,8 @@ const blogPosts = [
   },
 ];
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function Blogs() {
   const [activeCategory, setActiveCategory] = useState("All");
 
@@ -87,6 +89,11 @@ export default function Blogs() {
 
   return (
     <Layout>
+      <PageSEO 
+        title="Roofing Tips, Guides & Industry News"
+        description="Explore the Paradise Roofers blog for ultimate homeowner guides, expert roof maintenance tips, and the latest news in the Toronto roofing industry."
+        canonicalUrl="https://paradiseroofers.com/blogs/"
+      />
       {/* Hero */}
       <section className="bg-muted py-20">
         <div className="container">

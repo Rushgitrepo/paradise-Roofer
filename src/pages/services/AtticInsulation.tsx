@@ -4,9 +4,16 @@ import { Phone, ArrowRight, MapPin, Thermometer, DollarSign, Home, CheckCircle2,
 import { Link } from "react-router-dom";
 import atticInsulation from "@/assets/Home_page/AtticInsulationTorontoGTA.jpg";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function AtticInsulation() {
     return (
         <Layout>
+            <PageSEO 
+                title="Attic Insulation Services in Toronto & GTA"
+                description="Professional Attic Insulation services by Paradise Roofers in Toronto. Expert solutions, reliable contractors, and free drone inspections."
+                canonicalUrl="https://paradiseroofers.com/services/attic-insulation/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

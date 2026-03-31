@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Shield, Award, Star, MapPin, Home, Hammer, Trash2, L
 import { Link } from "react-router-dom";
 import roofReplacement from "@/assets/Home_page/Roof_Replacement_New.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function RoofReplacement() {
     return (
         <Layout>
+            <PageSEO 
+                title="Roof Replacement Services in Toronto & GTA"
+                description="Professional Roof Replacement services by Paradise Roofers in Toronto. Expert solutions, reliable contractors, and free drone inspections."
+                canonicalUrl="https://paradiseroofers.com/services/roof-replacement/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

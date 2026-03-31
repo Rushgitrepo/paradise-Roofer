@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Shield, Award, MapPin, Component, Home, Search, Hamm
 import { Link } from "react-router-dom";
 import fasciaImage from "@/assets/Home_page/Fascia_Repair_New.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function FasciaRepair() {
     return (
         <Layout>
+            <PageSEO 
+                title="Fascia Repair Services in Toronto & GTA"
+                description="Professional Fascia Repair services by Paradise Roofers in Toronto. Expert solutions, reliable contractors, and free drone inspections."
+                canonicalUrl="https://paradiseroofers.com/services/fascia-repair/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Hammer, Paintbrush, Wind, Home, Shield, Layers, Buil
 import { Link } from "react-router-dom";
 import markhamImage from "@/assets/locations/Markham.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function MarkhamRenovation() {
     return (
         <Layout>
+            <PageSEO 
+                title="Complete Home Renovation Services in Markham | Paradise Roofers"
+                description="Top-rated interior and exterior renovation contractors in Markham. Let Paradise Roofers upgrade your kitchen, bathroom, basement, and more."
+                canonicalUrl="https://paradiseroofers.com/locations/markham/renovation/"
+            />
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">
                     <div className="flex flex-col gap-8">

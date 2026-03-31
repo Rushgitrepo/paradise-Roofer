@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Home, Hammer } from "lucide-react";
 import { Link } from "react-router-dom";
 import AjaxImage from "@/assets/locations/Ajax.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function AjaxSimple() {
     return (
         <Layout>
+            <PageSEO 
+                title="Best Roofing & Renovation Services in Ajax | Paradise Roofers"
+                description="Your trusted local experts in Ajax for reliable roof repairs, complete replacements, and home renovations. Get a free estimate today!"
+                canonicalUrl="https://paradiseroofers.com/locations/ajax/"
+            />
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">
                     <div className="flex flex-col gap-8">

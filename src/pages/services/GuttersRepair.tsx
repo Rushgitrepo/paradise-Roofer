@@ -6,9 +6,16 @@ import completedRoof from "@/assets/completed-roof.jpg";
 import roofCoating from "@/assets/roof-coating.jpg"; // Placeholder
 import gutterRepair from "@/assets/Home_page/GutterRepairServices.webp";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function GuttersRepair() {
     return (
         <Layout>
+            <PageSEO 
+                title="Seamless Gutter Repair & Replacement in Toronto"
+                description="Protect your home from water damage with professional gutter repair, seamless eavestrough installation, and leaf guards in the GTA. 24/7 service available."
+                canonicalUrl="https://paradiseroofers.com/services/gutters/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Home, Users, Wrench, Hammer } from "lucide-react";
 import { Link } from "react-router-dom";
 import bramptonImage from "@/assets/locations/Brampton.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function BramptonSimple() {
     return (
         <Layout>
+            <PageSEO 
+                title="Best Roofing & Renovation Services in Brampton | Paradise Roofers"
+                description="Your trusted local experts in Brampton for reliable roof repairs, complete replacements, and home renovations. Get a free estimate today!"
+                canonicalUrl="https://paradiseroofers.com/locations/brampton/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

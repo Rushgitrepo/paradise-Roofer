@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Home, Shield, Wrench, AlertTriangle, Eye, Hammer } f
 import { Link } from "react-router-dom";
 import richmondHillImage from "@/assets/locations/Richmond_Hill.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function RichmondHillRoofing() {
     return (
         <Layout>
+            <PageSEO 
+                title="Expert Roofing Contractors in RichmondHill | Paradise Roofers"
+                description="Paradise Roofers provides premium roofing installations, repairs, and inspections for residential and commercial properties in RichmondHill."
+                canonicalUrl="https://paradiseroofers.com/locations/richmond-hill/roofing/"
+            />
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">
                     <div className="flex flex-col gap-8">

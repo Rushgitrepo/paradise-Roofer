@@ -81,9 +81,16 @@ const roofingTypes = [
   },
 ];
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function RoofingTypes() {
   return (
     <Layout>
+      <PageSEO 
+        title="Explore Roofing Materials: Metal, Shingle, Tile"
+        description="Discover the best roofing materials for your home in Canada. Compare asphalt shingles, metal, slate, and wood to find your perfect roofing solution."
+        canonicalUrl="https://paradiseroofers.com/roofing-types/"
+      />
       {/* Hero */}
       <section className="bg-muted py-20">
         <div className="container">

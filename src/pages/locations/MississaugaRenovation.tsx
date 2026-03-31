@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Hammer, Paintbrush, Wind, Home, Shield, Layers, Buil
 import { Link } from "react-router-dom";
 import mississaugaImage from "@/assets/locations/Mississauga.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function MississaugaRenovation() {
     return (
         <Layout>
+            <PageSEO 
+                title="Complete Home Renovation Services in Mississauga | Paradise Roofers"
+                description="Top-rated interior and exterior renovation contractors in Mississauga. Let Paradise Roofers upgrade your kitchen, bathroom, basement, and more."
+                canonicalUrl="https://paradiseroofers.com/locations/mississauga/renovation/"
+            />
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">
                     <div className="flex flex-col gap-8">

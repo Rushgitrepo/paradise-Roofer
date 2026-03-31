@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Home, Hammer } from "lucide-react";
 import { Link } from "react-router-dom";
 import richmondHillImage from "@/assets/locations/Richmond_Hill.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function RichmondHillSimple() {
     return (
         <Layout>
+            <PageSEO 
+                title="Best Roofing & Renovation Services in RichmondHill | Paradise Roofers"
+                description="Your trusted local experts in RichmondHill for reliable roof repairs, complete replacements, and home renovations. Get a free estimate today!"
+                canonicalUrl="https://paradiseroofers.com/locations/richmond-hill/"
+            />
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">
                     <div className="flex flex-col gap-8">

@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Home, Shield, Wrench, AlertTriangle, Eye, Hammer } f
 import { Link } from "react-router-dom";
 import BurlingtonImage from "@/assets/locations/Burlington.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function BurlingtonRoofing() {
     return (
         <Layout>
+            <PageSEO 
+                title="Expert Roofing Contractors in Burlington | Paradise Roofers"
+                description="Paradise Roofers provides premium roofing installations, repairs, and inspections for residential and commercial properties in Burlington."
+                canonicalUrl="https://paradiseroofers.com/locations/burlington/roofing/"
+            />
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">
                     <div className="flex flex-col gap-8">

@@ -132,7 +132,11 @@ export default function Index() {
 
   return (
     <Layout>
-      <PageSEO slug="home" />
+      <PageSEO 
+        title="Best Roofing Company in Toronto & GTA"
+        description="Looking for top-rated roofers in Toronto and the GTA? Paradise Roofers offers expert roof installations, repairs, and free drone inspections. Call us 24/7!"
+        canonicalUrl="https://paradiseroofers.com/"
+      />
       {/* Hero Section with 3D Mouse-Tracking Effect */}
       <Hero3D />
 

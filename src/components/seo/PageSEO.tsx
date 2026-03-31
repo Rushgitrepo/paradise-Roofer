@@ -8,22 +8,52 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 const SITE_NAME = 'Paradise Roofers';
 
-const PageSEO = ({ slug }: { slug: string }) => {
+interface PageSEOProps {
+    slug?: string;
+    title?: string;
+    description?: string;
+    canonicalUrl?: string;
+}
+
+const PageSEO = ({ slug, title, description, canonicalUrl: customCanonical }: PageSEOProps) => {
+    const location = useLocation();
+
+    // If static SEO data is provided, use it directly (skip WordPress query)
+    if (title || description) {
+        const urlToUse = customCanonical || `https://paradiseroofers.com${location.pathname}`;
+        const fullTitle = title ? (title.includes(SITE_NAME) ? title : `${title} - ${SITE_NAME}`) : SITE_NAME;
+        
+        return (
+            <Helmet>
+                <title>{fullTitle}</title>
+                {description && <meta name="description" content={description} />}
+                <link rel="canonical" href={cleanCanonicalUrl(urlToUse)} />
+                <meta property="og:title" content={fullTitle} />
+                {description && <meta property="og:description" content={description} />}
+                <meta property="og:url" content={cleanCanonicalUrl(urlToUse)} />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content={fullTitle} />
+                {description && <meta name="twitter:description" content={description} />}
+            </Helmet>
+        );
+    }
+
     const { data: page, isLoading, isError } = useQuery<WPPage | null>({
         queryKey: ['wordpress-page', slug],
-        queryFn: () => getContentBySlug(slug),
+        queryFn: () => slug ? getContentBySlug(slug) : Promise.resolve(null),
+        enabled: !!slug,
         staleTime: 600000,
     });
 
-    const location = useLocation();
     const navigate = useNavigate();
 
     useEffect(() => {
         // Add trailing slash handling if needed, though redirect handler will generally handle it
     }, [location.pathname]);
 
-    if (isLoading) return <Helmet><title>Paradise Roofers | Contact Us </title></Helmet>;
-    if (isError || !page) return <Helmet><title>Paradise Roofers | Contact Us </title></Helmet>;
+    if (!slug) return <Helmet><title>{SITE_NAME}</title></Helmet>;
+    if (isLoading) return <Helmet><title>{SITE_NAME}</title></Helmet>;
+    if (isError || !page) return <Helmet><title>{SITE_NAME}</title></Helmet>;
 
     const yoast = page.yoast_head_json;
 

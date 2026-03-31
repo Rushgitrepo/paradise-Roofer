@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Hammer, Paintbrush, Wind, Home, Shield, Layers, Buil
 import { Link } from "react-router-dom";
 import bramptonImage from "@/assets/locations/Brampton.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function BramptonRenovation() {
     return (
         <Layout>
+            <PageSEO 
+                title="Complete Home Renovation Services in Brampton | Paradise Roofers"
+                description="Top-rated interior and exterior renovation contractors in Brampton. Let Paradise Roofers upgrade your kitchen, bathroom, basement, and more."
+                canonicalUrl="https://paradiseroofers.com/locations/brampton/renovation/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

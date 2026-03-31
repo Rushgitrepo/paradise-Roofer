@@ -4,9 +4,16 @@ import { Phone, ArrowRight, Hammer, Paintbrush, Wind, Home, Shield, Layers, Buil
 import { Link } from "react-router-dom";
 import miltonImage from "@/assets/locations/Milton.png";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function MiltonRenovation() {
     return (
         <Layout>
+            <PageSEO 
+                title="Complete Home Renovation Services in Milton | Paradise Roofers"
+                description="Top-rated interior and exterior renovation contractors in Milton. Let Paradise Roofers upgrade your kitchen, bathroom, basement, and more."
+                canonicalUrl="https://paradiseroofers.com/locations/milton/renovation/"
+            />
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">
                     <div className="flex flex-col gap-8">

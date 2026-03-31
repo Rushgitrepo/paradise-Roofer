@@ -61,9 +61,16 @@ const testimonials = [
   },
 ];
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function Reviews() {
   return (
     <Layout>
+      <PageSEO 
+        title="Customer Testimonials & Roofing Reviews"
+        description="Read 5-star reviews from satisfied homeowners across the GTA. See why Paradise Roofers is Toronto's highest-rated team for roof installation and repair."
+        canonicalUrl="https://paradiseroofers.com/reviews/"
+      />
       {/* Hero */}
       <section className="bg-muted py-20">
         <div className="container">

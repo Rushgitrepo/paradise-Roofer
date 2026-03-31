@@ -6,9 +6,16 @@ import residentialRoofing from "@/assets/Home_page/ResidentialRoofingSolutions.w
 import roofCoating from "@/assets/roof-coating.jpg"; // Placeholder
 import metalRoof from "@/assets/metal-roof.jpg";
 
+import PageSEO from "@/components/seo/PageSEO";
+
 export default function ResidentialRoofing() {
     return (
         <Layout>
+            <PageSEO 
+                title="Residential Roofing Services in Toronto & GTA"
+                description="Professional Residential Roofing services by Paradise Roofers in Toronto. Expert solutions, reliable contractors, and free drone inspections."
+                canonicalUrl="https://paradiseroofers.com/services/residential-roofing/"
+            />
             {/* Hero Text Section */}
             <section className="pt-20 pb-10 bg-background">
                 <div className="container max-w-6xl">

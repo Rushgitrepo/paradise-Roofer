@@ -1,20 +1,20 @@
 import { useState, useRef, useEffect } from "react";
 import { Move, ChevronLeft, ChevronRight } from "lucide-react";
-import beforeImage1 from "@/assets/Home_page/before.webp";
-import afterImage1 from "@/assets/Home_page/after.webp";
-import beforeImage2 from "@/assets/Home_page/before2.webp";
-import afterImage2 from "@/assets/Home_page/after2.webp";
+import beforeImage1 from "@/assets/Home_page/before2.webp";
+import afterImage1 from "@/assets/Home_page/after2.webp";
+import beforeImage2 from "@/assets/Home_page/before3.png";
+import afterImage2 from "@/assets/Home_page/after3.png";
 
 const imagesSets = [
-  {
-    before: beforeImage1,
-    after: afterImage1,
-    title: "Roof Replacement Project"
-  },
   {
     before: beforeImage2,
     after: afterImage2,
     title: "Roof Restoration Project"
+  },
+  {
+    before: beforeImage1,
+    after: afterImage1,
+    title: "Roof Replacement Project"
   }
 ];
 

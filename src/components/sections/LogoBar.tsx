@@ -1,5 +1,8 @@
 export default function LogoBar() {
   const logos = [
+    { name: "Paradise Construction", url: "https://paradiseconstruction.com/", img: "/footerlogos/P-cons.png" },
+    { name: "Paradise Estimating", url: "https://paradiseestimating.com/", img: "/footerlogos/logo.webp" },
+    { name: "Contractor List", url: "https://staging.contractorslist.com/", img: "/footerlogos/Con.List.png" },
     { name: "Fusion Cortex", url: "https://fusioncortex.com/", img: "/footerlogos/Fusion-Cortex.jpg" },
     { name: "Grobots", url: "https://grobots.ai/", img: "/footerlogos/grobot.png" },
     { name: "Bitwords", url: "https://www.bitwords.com/", img: "/footerlogos/bitwords.png" },
@@ -19,7 +22,7 @@ export default function LogoBar() {
   ];
 
   return (
-    <div className="py-6 overflow-hidden border-t border-background/10" style={{ backgroundColor: 'rgb(249,116,21)' }}>
+    <div className="py-6 overflow-hidden" style={{ backgroundColor: 'rgb(255, 156, 69)' }}>
       <div className="flex animate-marquee whitespace-nowrap">
         {logos.concat(logos).map((logo, i) => (
           <div key={i} className="flex-shrink-0 mx-6 group">

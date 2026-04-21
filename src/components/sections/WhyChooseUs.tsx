@@ -48,19 +48,6 @@ export default function WhyChooseUs() {
               pricing spotless job sites.
             </h2>
           </div>
-          {/* <div className="text-center mb-10">
-            
-            <span className="section-label mb-4 inline-block">Why Choose Paradise Roofers?</span>
-            <h2 className="headline-lg text-1xl md:text-2xl lg:text-3xl font-bold">
-              Choose Paradise Roofers for their high-end,
-              <br />
-              weather resilient materials and customer first 
-              <br />
-              approach that prioritize transparent pricing 
-              <br />
-              spotless job sites.
-            </h2>
-          </div> */}
 
           <div className="grid md:grid-cols-2 gap-6">
             {reasons.map((reason, i) => (
